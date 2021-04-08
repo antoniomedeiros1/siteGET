@@ -5,15 +5,17 @@ import {
   Route,
 } from "react-router-dom";
 import ScrollToTop from './components/ScrollToTop'
-import Home from './pages/index';
+import HomePage from './pages/index';
 import Atividades from './pages/atividades';
+import Ensino from './pages/ensino';
 
 function App() {
 	return (
 			<Router>
 				<ScrollToTop>
-					<Route path='/' exact component={Home} />
+					<Route path='/' exact component={HomePage} />
 					<Route path='/activities' exact component={Atividades} />
+					<Route path='/ensino' exact component={Ensino} />
 				</ScrollToTop>	
 			</Router>
 	);

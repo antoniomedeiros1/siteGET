@@ -1,18 +1,18 @@
 
 import Header from '../components/Header'
 import Banner from '../components/Banner'
-import Main from '../components/Main'
+import Home from '../components/Home'
 import SiteFooter from '../components/SiteFooter'
 
-const Home = () => {
+const HomePage = () => {
     return (
         <>
             <Header />
             <Banner />
-            <Main />
+            <Home />
             <SiteFooter />
         </>
     )
 }
 
-export default Home
+export default HomePage

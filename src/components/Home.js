@@ -4,10 +4,10 @@ import './Main.css'
 import Quadro from './Quadro'
 
 
-const Main = () => {
+const Home = () => {
     return (
         <div className="container-main">
-            <div className="intro-main">
+            <div className="split">
                 <div className="title0">
                     OK, MAS O QUE É GET? 🤔
                 </div>
@@ -37,4 +37,4 @@ const Main = () => {
     )
 }
 
-export default Main
+export default Home
