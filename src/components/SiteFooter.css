@@ -1,0 +1,62 @@
+.footer {
+    background-image: linear-gradient(rgb(29, 29, 29), rgb(0, 0, 0));
+    margin: 0;
+}
+
+.footer-container {
+    display: block;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+}
+
+.footer div {
+    padding: 10px;
+}
+
+.esq {
+    padding-top: 20px;
+    width: 50%;
+    display: inline-block;
+}
+
+.esq li {
+    padding-top: 5px;
+}
+
+.cent {
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+    width: 30%;
+}
+
+.dir {
+    padding-top: 20px;
+    width: 20%;
+    display: inline-block;
+}
+
+.dir li {
+    display: inline-block;
+}
+
+.footer ul{
+    color: white;
+    list-style: none;
+}
+
+.icon {
+    width: 40px;
+    padding: 8px;
+}
+
+.big-icon {
+    width: 50px;
+    padding: 4px;
+}
+
+.logo {
+    width: 200px;
+}
