@@ -1,8 +1,8 @@
 
 
 .container-main {
-    padding-bottom: 20px;
-    padding-top: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
     margin-right: auto;
 	margin-left: auto;
     min-height: 600px;
@@ -16,14 +16,15 @@
     margin-bottom: 20px;
     margin-left: auto;
     margin-right: auto;
-    padding: 20px 40px 30px 40px;
+    padding: 20px 40px 0px 40px;
 }
 
 .paragrafo {
     color: rgb(73, 73, 73);
+    padding-bottom: 20px;
     text-shadow: none;
-    font-size: 24px;
-    font-family: 'Ubuntu';
+    font-size: 22px;
+    font-family: 'Merriweather';
 }
 
 .paragrafo a {
@@ -47,8 +48,8 @@
 .split-text {
     padding: 0px 30px 0px 30px;
     display: block;
-    font-size: 20px;
-    font-family: 'Ubuntu';
+    font-size: 19px;
+    font-family: 'Merriweather';
     color: rgb(59, 59, 59);
     position: relative;
 }
@@ -70,16 +71,17 @@
     text-shadow: 1.6px 1.6px 0.5px black;
     color: rgb(236, 56, 56);
     text-align: left;
+    font-weight: 500;
 }
 
 .title1 {
     margin: 0;
     padding: 0;
     display: block;
-    font-size: 50px;
-    text-shadow: 2px 2px 1px black;
-    color: rgb(236, 56, 56);
+    font-size: 45px;
+    color: rgb(51, 51, 51);
     text-align: left;
+    font-weight: bold;
 }
 
 .avisos {

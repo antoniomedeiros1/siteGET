@@ -1,0 +1,51 @@
+.card {
+    background-color: white;
+    color: black;
+    min-height: 180px;
+    width: 90%;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    transition: 0.2s;
+    border-style: solid;
+    border-width: 1.5px;
+    border-color: black;
+    border-radius: 10px;
+}
+
+.card:hover {
+    box-shadow: 0px 0px 10px rgb(77, 77, 77);
+}
+
+.card h3 {
+    font-family: 'Roboto';
+    font-size: 25px;
+    font-weight: 600;
+    padding: 10px 10px 0px 30px;
+}
+
+.card p {
+    font-family: 'Roboto';
+    font-size: 16px;
+    padding: 0px 10px 0px 30px;
+}
+
+.card-content {
+    width: 80%;
+}
+
+.card-icon {
+    width: 20%;
+    border-left-style: solid;
+    border-width: 1px;
+    border-color: rgb(107, 107, 107);
+    border-radius: 10px;
+    padding: 20px;
+    background-image: linear-gradient(rgb(194, 194, 194), rgb(231, 231, 231));
+}
+
+.card-icon img {
+    width: 100%;
+}

@@ -17,17 +17,17 @@ const Header = ({ title }) => {
                         <li className='active'><Link to='/curso'>Engenharia Computacional</Link></li>
                         <li className='dropdown'><Link to='/activities'>Atividades</Link>
                             <ul className='dropcontent'>
-                                <li><Link to='/seminarios'>Seminários</Link></li>
-                                <li><Link to='/extensao'>Extensão</Link></li>
-                                <li><Link to='/pesquisa'>Pesquisa</Link></li>
-                                <li><Link to='/ensino'>Ensino</Link></li>
+                                <li><Link to='/activities/seminarios'>Seminários</Link></li>
+                                <li><Link to='/activities/extensao'>Extensão</Link></li>
+                                <li><Link to='/activities/pesquisa'>Pesquisa</Link></li>
+                                <li><Link to='/activities/ensino'>Ensino</Link></li>
                             </ul>
                         </li>
                         <li className='dropdown'><Link to='/about'>Sobre o GET</Link>
                             <ul className='dropcontent'>
-                                <li><Link to='/presentation'>Apresentação</Link></li>
-                                <li><Link to='/members'>Membros</Link></li>
-                                <li><Link to='/projects'>Projetos</Link></li>
+                                <li><Link to='/about/presentation'>Apresentação</Link></li>
+                                <li><Link to='/about/members'>Membros</Link></li>
+                                <li><Link to='/about/projects'>Projetos</Link></li>
                             </ul>
                         </li>
                         <li><Link to='/tutorial'>Cursos</Link></li>

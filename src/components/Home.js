@@ -49,10 +49,6 @@ const Home = () => {
                     no aprendizado dos alunos, diminuindo as taxas de reprovação e 
                     evasão dos cursos atendidos.
                 </div>
-                <div className="split-text">
-                    Os aulões sob responsabilidade do grupo atualmente são: 
-                    Algoritmos (em parceria com o PET Elétrica), Cálculo Numérico e Mecânica.
-                </div>
             </div>
             <div className="split">
                 <div className="title0">

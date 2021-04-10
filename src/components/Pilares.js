@@ -6,7 +6,7 @@ import './Pilares.css';
 const Pilares = () => {
     return (
         <>
-            <Link to="/ensino" className="ensino">
+            <Link to="/activities/ensino" className="ensino">
                 <div className="title-triade">
                     ENSINO 📄✍️
                 </div>
@@ -17,7 +17,7 @@ const Pilares = () => {
                     percurso acadêmico
                 </div>
             </Link>
-            <Link to="/extensao" className="extensao">
+            <Link to="/activities/extensao" className="extensao">
                 <div className="title-triade">
                     EXTENSÃO 👥
                 </div>
@@ -27,7 +27,7 @@ const Pilares = () => {
                     ao longo da graduação
                 </div>
             </Link>
-            <Link to="/pesquisa" className="pesquisa">
+            <Link to="/activities/pesquisa" className="pesquisa">
                 <div className="title-triade">
                     PESQUISA 🔬
                 </div>

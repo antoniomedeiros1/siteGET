@@ -1,7 +1,7 @@
 import Header from '../components/Header'
 import Pilares from '../components/Pilares'
 import SiteFooter from '../components/SiteFooter'
-import Atividades from '../img/ensino.jpg'
+import Atividades from '../img/atividades.jpg'
 
 const atividades = () => {
     return (
@@ -14,15 +14,12 @@ const atividades = () => {
             </div>
             <div className="container-main">
                 <div className="text">
-                    <div className="title1">
-                        Atividades do GET
-                    </div>
                     <div className="paragrafo">
                         O GET Engenharia Computacional desenvolve projetos com
-                        o intuito de retribuir para a sociedade, a graduação e
+                        o intuito de retribuir o conhecimento adquirido para a sociedade, a graduação e
                         o meio acadêmico. Dentre as atividades do GET podemos citar o ensino de tecnologias
                         para crianças e jovens de escolas públicas, capacitações profissionais,
-                        minicursos, aulas de revisão (aulões). <br /> <br />
+                        minicursos, aulas de revisão (aulões).
                     </div>
                     <div className="title1">
                         Tríade
