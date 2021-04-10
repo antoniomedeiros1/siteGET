@@ -20,7 +20,7 @@ const extensao = () => {
                     ao longo da graduação.
                 </div>
             </div>
-            <ProjetosExtensao></ProjetosExtensao>
+            <ProjetosExtensao />
         </div>
         <SiteFooter />
             
