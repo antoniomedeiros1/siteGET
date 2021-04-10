@@ -10,6 +10,7 @@ import Twitter from '../img/twitter.png'
 import D20 from '../img/d20.jpg'
 import Fluid from '../img/fluid.jfif'
 import Sismico from '../img/sismico.jpg'
+import SistemaImune from '../img/sistemaImune.jpg'
 
 const ProjetosExtensao = () => {
     return (
@@ -130,6 +131,22 @@ const ProjetosExtensao = () => {
                     </div>
                     <div className="card-icon">
                         <img src={Twitter} alt="twitter"></img>
+                    </div>
+                </div>
+                <div className='card'>
+                    <div className="card-content">
+                        <h3>
+                            Implementação e Análise de Modelos Matemáticos para Simulação do Sistema Imune
+                        </h3>
+                        <p>
+                        <h4><b>Aluno:</b></h4>Giulia Fritz Iennaco<br/>
+                        <h4><b>Orientador: </b></h4>Prof. Ruy Freitas Reis (DCC)<br/>
+                        <br/>
+                        Descrição: O Sistema Imunológico Humano é um conjunto complexo de defesa do corpo humano e é essencial para a sobrevivência da espécie, atuando no combate a patógenos ou células que apresentem comportamento anormal e renovação celular. Existem dois tipos de sistema imune: inato e adquirido. O sistema imune inato está presente desde o nascimento, é a primeira linha de defesa e combate rapidamente infecções. O sistema imune adaptativo, por outro lado, é adquirido através de um contato inicial com diferentes agentes invasores. Após esse primeiro contato, o sistema adquire capacidade de reconhecer especificamente um microorganismo, gerando uma memória imunológica, que atribui proteção à futuras exposições ao mesmo. Dada a notável importância deste sistema, é fundamental que se estude seu funcionamento, portanto foram desenvolvidos modelos matemáticos e computacionais que descrevem seu comportamento. No entanto, no tocante à naturezas biológicas do corpo humano, descrever matematicamente seu funcionamento não é uma tarefa trivial, e pode haver dificuldades em aferir com precisão os parâmetros para estes modelos, o que pode torná-los não realísticos. O objetivo deste trabalho foi a implementação de modelos de simulação do Sistema Imune Humano e a quantificação de incertezas quantificar incertezas relacionadas aos parâmetros de um modelo, e também a sensibilidade do mesmo. Desta forma, foram analisados alguns parâmetros que podem variar de acordo com o patógeno ou condição de saúde do indivíduo, e quantificar sua influência em modelos matemáticos.
+                        </p>
+                    </div>
+                    <div className="card-icon">
+                        <img src={SistemaImune} alt="sistemaimune"></img>
                     </div>
                 </div>
                 <div className='card'>
