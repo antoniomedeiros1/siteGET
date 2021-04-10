@@ -5,11 +5,16 @@ import Trafego from '../img/trafego.jfif'
 import Inibe from '../img/inibecovid.jfif'
 import Circuito from '../img/circuito.jfif'
 import Grafo from '../img/grafo.jfif'
+import Remedio from '../img/remedio.jfif'
+import Twitter from '../img/twitter.png'
+import D20 from '../img/d20.jpg'
+import Fluid from '../img/fluid.jfif'
 
 const ProjetosExtensao = () => {
     return (
         <div>
             <button type="button" class="collapsible"><h2>2020</h2></button>
+            <div class="collapsible-content">
                 <div className='card'>
                     <div className="card-content">
                         <h3>
@@ -74,10 +79,90 @@ const ProjetosExtensao = () => {
                         <img src={Circuito} alt="circuito"></img>
                     </div>
                 </div>
+            </div>
+
             <button type="button" class="collapsible"><h2>2019</h2></button>
             <div class="collapsible-content">
-                <p>Lorem ipsum...</p>
+            <div className='card'>
+                    <div className="card-content">
+                        <h3>
+                            O uso de modelagem matemática para o balanceamento de jogos
+                        </h3>
+                        <p>
+                        <h4><b>Aluno:</b></h4>André Felipe de Souza Mota<br/>
+                        <h4><b>Orientador: </b></h4> Prof. Igor de Oliveira Knop (DCC)<br/>
+                        <br/>
+                        Descrição: Jogos digitais utilizam-se de diversas medidas matemáticas. Todavia, conforme a complexidade aumenta, é comum que a estrutura de um jogo apresente elementos não condizentes com o restante do mesmo e não proporcione a experiência pretendida. Para esta pesquisa, focou-se em combates de jogos do gênero RPG. O sistema de combate pode ser modelado matematicamente e, a partir dos resultados, pode-se identificar aspectos que o comprometem. Como objetivo geral espera-se desenvolver um novo método para o projeto de jogos que permita a modelagem, avaliação e melhoria dos diversos mecanismos envolvidos em busca de um melhor balanceamento matemático de um jogo. Ou seja, objetivou-se um método apoiado por computação que permita se criar um jogo onde todos os seus elementos componentes possuam um valor tático ou estratégico equivalente.
+                        </p>
+                    </div>
+                    <div className="card-icon">
+                        <img src={D20} alt="d20"></img>
+                    </div>
+                </div>
+                <div className='card'>
+                    <div className="card-content">
+                        <h3>
+                            Estudo de estabilidade de interação entre proteínas e ligantes através de simulações de dinâmica molecular
+                        </h3>
+                        <p>
+                        <h4><b>Aluno:</b></h4>Gabriele Cesar Iwashima<br/>
+                        <h4><b>Orientador: </b></h4>Prof. Priscila Vanessa Zabala Capriles Goliatt (MAC)<br/>
+                        <br/>
+                        A modelagem 3D se caracteriza por possuir aplicações práticas com impactos relevantes na área terapêutica, estando diretamente relacionada a múltiplas áreas da bioinformática, biologia computacional e modelagem molecular. Em relação a Dinâmica Molecular (DM), esta é uma ferramenta computacional usada para descrever a variação do comportamento molecular. Dessa maneira, podemos estudar modelos 3D de compostos mais próximos da realidade, considerando características como flexibilidade molecular e temperatura. Neste projeto estudou-se possíveis conformações estruturais, utilizando os conceitos citados posteriormente, da molécula de dhmtAc, possível fármaco para tratamento da leishmaniose
+                        </p>
+                    </div>
+                    <div className="card-icon">
+                        <img src={Remedio} alt="remedio"></img>
+                    </div>
+                </div>
+                <div className='card'>
+                    <div className="card-content">
+                        <h3>
+                            Classificação de Rumores utilizando Máquina de Vetores Suporte
+                        </h3>
+                        <p>
+                        <h4><b>Aluno:</b></h4>Gustavo Albuquerque Ferraz<br/>
+                        <h4><b>Orientador: </b></h4>Prof. Stênio Sã Rosário Furtado Soares (DCC)<br/>
+                        <br/>
+                        Descrição: A propagação de rumores é um problema que pode causar danos graves à imagem de uma pessoa, organização, ou até mesmo gerar pânico entre os cidadãos. Um exemplo conhecido que demonstra a gravidade do problema é uma notícia falsa publicada no Twitter em 2013 sobre duas explosões que teriam acontecido na Casa Branca. Poucos minutos após a notícia ser publicada, foi registrado um tombo momentâneo na bolsa de valores.Tendo em vista os danos que a propagação de rumores pode causar à sociedade como um todo, estudou-se a utilização de máquina de vetores suporte como uma alternativa para a classificação de rumores no Twitter, uma das redes sociais mais populares atualmente
+                        </p>
+                    </div>
+                    <div className="card-icon">
+                        <img src={Twitter} alt="twitter"></img>
+                    </div>
+                </div>
+                <div className='card'>
+                    <div className="card-content">
+                        <h3>
+                            Métodos numéricos aplicados à solução de problemas de mudança de fase.
+                        </h3>
+                        <p>
+                        <h4><b>Aluno:</b></h4>Vinícius Receputi Moraes<br/>
+                        <h4><b>Orientador: </b></h4>Prof. Elson Magalhães Toledo (MAC)<br/>
+                        <br/>
+                        Descrição: Problemas de mudança de fase são de interesse das áreas da ciência, engenharia e industrial. Em processos de solidificação, por exemplo, a ocorrência de trincas e formações de vazios causados por uma redução na capacidade de resistir a esforços mecânicos geralmente são observados, e é de grande importância prever esses comportamentos para que possam ser evitados. A discretização das equações que descrevem esse fenômeno é de extrema importância, já que o custo computacional para o cálculo do problema depende desta discretização. O objetivo é a discretização das equações diferenciais que regem o problema matemático de mudança de fase, e a realização de simulações computacionais dos resultados utilizando o Método dos Volumes Finitos.
+                        </p>
+                    </div>
+                </div>
+                <div className='card'>
+                    <div className="card-content">
+                        <h3>
+                            Métodos numéricos para simulação de escoamentos de fluidos viscosos, newtonianos e incompressíveis
+                        </h3>
+                        <p>
+                        <h4><b>Aluno:</b></h4>Yuri Ramos Corrêa<br/>
+                        <h4><b>Orientador: </b></h4>Prof. Iury Higor Aguiar da Igreja (DCC)<br/>
+                        <br/>
+                        Descrição: Métodos numéricos para simular escoamentos de fluidos viscosos, newtonianos e incompressíveis têm sido largamente desenvolvidos devido à diversas aplicações em vários campos da pesquisa de mecânica dos fluidos. Estes fenômenos podem ser modelados pelas equações de Navier-Stokes que são governadas pelas equações do momento linear e do balanço de massa. O problema de Navier-Stokes tem se mostrado ainda hoje bastante desafiador devido às suas características de não linearidade e de instabilidade numérica geradas por valores elevados do número de Reynolds (que relaciona efeitos convectivos com efeitos viscosos) que dão origem a escoamentos predominantemente convectivos. Estas propriedades tornam a aproximação numérica deste problema bastante complexa. Além disso, os métodos numéricos empregados para resolução deste problema pressupõem a aproximação simultânea dos campos de velocidade e pressão. O objetivo deste projeto era o desenvolvimento de metodologias numéricas e implementação computacional visando a simulação de problemas de escoamentos de fluidos viscosos incompressíveis governados pelas equações de Navier-Stokes utilizando os métodos de diferenças finitas. Como objetivo final, buscou-se derivar e implementar um método de diferenças finitas estável e capaz de simular o problema de escoamento viscoso com elevados valores do número de Reynolds.
+                        </p>
+                    </div>
+                    <div className="card-icon">
+                        <img src={Fluid} alt="fluid"></img>
+                    </div>
+                </div>
             </div>
+
+
             <button type="button" class="collapsible"><h2>2018</h2></button>
             <button type="button" class="collapsible"><h2>2017</h2></button>
             
