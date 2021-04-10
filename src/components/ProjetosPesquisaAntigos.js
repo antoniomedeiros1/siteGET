@@ -9,6 +9,7 @@ import Remedio from '../img/remedio.jfif'
 import Twitter from '../img/twitter.png'
 import D20 from '../img/d20.jpg'
 import Fluid from '../img/fluid.jfif'
+import Sismico from '../img/sismico.jpg'
 
 const ProjetosExtensao = () => {
     return (
@@ -134,6 +135,24 @@ const ProjetosExtensao = () => {
                 <div className='card'>
                     <div className="card-content">
                         <h3>
+                            Métodos numéricos aplicados à análises sísmicas.
+                        </h3>
+                        <p>
+                        <h4><b>Aluno:</b></h4> João Victor Lopes Borges<br/>
+                        <h4><b>Orientador: </b></h4>Prof. Elson Magalhães Toledo (MAC)<br/>
+                        <br/>
+                        Descrição: Métodos numéricos para avaliar e simular análises sísmicas e seus desdobramentos são soluções, exploradas tanto no âmbito acadêmico quanto no mercado de interesse, como é o caso de grandes companhias petrolíferas. Neste estudo, englobando as áreas de ciências exatas, computação e engenharia, o propósito se da pela busca da comprovação de um novo método mais eficaz e menos custoso em termos de processamento computacional, com o intuito de avaliar simulações sísmicas. Utilizando ferramentas já comprovadamente eficientes no que diz respeito a métodos de discretização. O objetivo deste projeto era a realização de simulações computacionais, com base em equações diferenciais que comandam o comportamento de ondas sísmicas devidamente discretizadas, através de métodos conceituados pela literatura.
+
+
+                        </p>
+                    </div>
+                    <div className="card-icon">
+                        <img src={Sismico} alt="sismico"></img>
+                    </div>
+                </div>
+                <div className='card'>
+                    <div className="card-content">
+                        <h3>
                             Métodos numéricos aplicados à solução de problemas de mudança de fase.
                         </h3>
                         <p>
@@ -160,6 +179,7 @@ const ProjetosExtensao = () => {
                         <img src={Fluid} alt="fluid"></img>
                     </div>
                 </div>
+                
             </div>
 
 
