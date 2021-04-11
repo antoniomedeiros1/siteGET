@@ -114,6 +114,6 @@
     outline: none;
     font-size: 15px;
 }  
-.collapsible:hover {
+.collapsible-content {
     background-color: rgb(236, 56, 56);
 }
