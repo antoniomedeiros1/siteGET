@@ -117,3 +117,9 @@
 .collapsible:hover {
     background-color: rgb(236, 56, 56);
 }
+
+
+iframe {
+    padding: 10px;
+    box-shadow: 5px 5px 10px black;
+}
