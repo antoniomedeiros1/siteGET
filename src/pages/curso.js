@@ -42,6 +42,10 @@ const about = () => {
                     <div className="paragrafo">
                         Mas qual a importância em ser capaz de modelar computacionalmente ? Modelos permitem testar teorias 
                         <br />
+                        <br />
+                        COMPLETAR O TEXTO
+                        <br />
+                        <br />
                         A Engenharia Computacional apresenta aplicação em diversas areas como:
                         <ul>
                             <li>Análise de Estruturas</li>
@@ -54,6 +58,20 @@ const about = () => {
                             <li>Avaliação da Disseminação de Doenças como o COVID19</li>
                         </ul>
                     </div>
+
+                    <div className="title1">
+                        Proposta do Curso
+                    </div>
+                    <div className="paragrafo">
+                        Explicar a proposta do curso
+                    </div>
+                    <div className="paragrafo">
+                        A origem
+                    </div>
+                    <div className="paragrafo">
+                        Colocar o PPC novo
+                    </div>
+
                     <div className="title1">
                         Destaques no Curso
                     </div>
