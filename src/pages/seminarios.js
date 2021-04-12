@@ -45,7 +45,43 @@ const seminarios = () => {
                         ilustrando a importância da multidisciplinaridade em temas atuais,
                         que é um aspecto valorizado ao longo do curso.
                     </div>
-
+                    <div className="title1">
+                        Seminários 2021
+                    </div>
+                    <div className="paragrafo">
+                        Em Breve
+                    </div>
+                    <div className="title1">
+                        Seminários 2020
+                    </div>
+                    <div className="paragrafo">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Palestrante</th>
+                                    <th></th>
+                                    <th>Tema</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Rodrigo Weber dos Santos</td>
+                                    <td></td>
+                                    <td>Engenharia computacional e o papel da modelagem da pandemia COVID-19 no Brasil</td>
+                                </tr>
+                                <tr>
+                                    <td>Priscila Capriles</td>
+                                    <td></td>
+                                    <td>Mineração de dados em mídias sociais para o entendimento da pandemia de Sars-CoV-2</td>
+                                </tr>
+                                <tr>
+                                    <td>Grigori Chapiro</td>
+                                    <td></td>
+                                    <td>Alguns tópicos da Modelagem Matemática</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
                 </div>
             </div>
             <SiteFooter />

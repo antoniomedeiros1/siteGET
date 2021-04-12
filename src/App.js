@@ -13,6 +13,8 @@ import Pesquisa from './pages/pesquisa';
 import Seminarios from './pages/seminarios';
 import About from './pages/about';
 import Projects from './pages/projects';
+import Curso from './pages/curso';
+import TrabalhosCurso from './pages/curso';
 
 function App() {
 	return (
@@ -26,6 +28,8 @@ function App() {
 					<Route path='/activities/seminarios' exact component={Seminarios} />
 					<Route path='/about' exact component={About} />
 					<Route path='/about/projects' exact component={Projects} />
+					<Route path='/curso' exact component={Curso} />
+					<Route path='/curso/trabalhos' exact component={TrabalhosCurso} />
 				</ScrollToTop>	
 			</Router>
 	);

@@ -23,7 +23,7 @@ const ProjetosExtensao = () => {
                     </p>
                 </div>
                 <div className="card-icon">
-                    <img src={Sheets} alt="python"></img>
+                    <img src={Sheets} alt="sheets"></img>
                 </div>
             </div>
             <div className='card'>
@@ -56,7 +56,7 @@ const ProjetosExtensao = () => {
                     </p>
                 </div>
                 <div className="card-icon">
-                    <img src={Linux} alt="python"></img>
+                    <img src={Linux} alt="linux"></img>
                 </div>
             </div>
         </div>

@@ -1,5 +1,7 @@
 import '../components/Main.css'
 import '../components/Card.css'
+import ProjetosPesquisa from '../components/ProjetosPesquisa'
+import ProjetosPesquisaAntigos from '../components/ProjetosPesquisaAntigos'
 import Header from '../components/Header'
 import SiteFooter from '../components/SiteFooter'
 
@@ -22,6 +24,14 @@ const pesquisa = () => {
                         de Seminários e projetos de inovações tecnológicas.
                     </div>
                 </div>
+                <div className = 'title1'>
+                    Pesquisas Atuais
+                </div>
+                <ProjetosPesquisa />
+                <div className = 'title1'>
+                    Pesquisas Anteriores
+                </div>
+                <ProjetosPesquisaAntigos />
             </div>
             <SiteFooter />
         </div>
