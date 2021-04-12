@@ -8,12 +8,11 @@ const Header = ({ title }) => {
             
             <div className = 'container'>
                 <div className = 'logo'>
-                    <Link to = '/'>
-                        <img src={logoget} alt=""></img>
-                    </Link>
+                    <img src={logoget} alt="Logo"></img>
                 </div>
                 <nav className = 'navbar'>
                     <ul>
+                        <li><Link to='/'>Home</Link></li>
                         <li className='active'><Link to='/curso'>Engenharia Computacional</Link></li>
                         <li className='dropdown'><Link to='/activities'>Atividades</Link>
                             <ul className='dropcontent'>
