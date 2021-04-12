@@ -6,9 +6,9 @@ import './Pilares.css';
 const Pilares = () => {
     return (
         <>
-            <Link to="/activities/ensino" className="ensino">
+            <Link to="/activities/ensino" className="pilar">
                 <div className="title-triade">
-                    ENSINO 📄✍️
+                    Ensino 📄✍️
                 </div>
                 <div className="paragrafo-triade">
                     As atividades de ensino são direcionadas para
@@ -17,9 +17,9 @@ const Pilares = () => {
                     percurso acadêmico
                 </div>
             </Link>
-            <Link to="/activities/extensao" className="extensao">
+            <Link to="/activities/extensao" className="pilar">
                 <div className="title-triade">
-                    EXTENSÃO 👥
+                    Extensão 👥
                 </div>
                 <div className="paragrafo-triade">
                     Nas atividades de extensão o grupo visa levar 
@@ -27,9 +27,9 @@ const Pilares = () => {
                     ao longo da graduação
                 </div>
             </Link>
-            <Link to="/activities/pesquisa" className="pesquisa">
+            <Link to="/activities/pesquisa" className="pilar">
                 <div className="title-triade">
-                    PESQUISA 🔬
+                    Pesquisa 🔬
                 </div>
                 <div className="paragrafo-triade">
                     Cada membro desenvolve uma atividade de pesquisa individual
