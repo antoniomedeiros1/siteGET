@@ -39,7 +39,7 @@
 
 .split {
     display: inline-block;
-    margin: 20px 0px 20px 40px;
+    margin: 20px;
     padding-bottom: 20px;
     vertical-align: top;
     width: 45%;
@@ -86,7 +86,6 @@
 
 .avisos {
     display: inline-block;
-    margin: 30px;
     padding: 8px;
     background-color: rgb(236, 56, 56);
 }

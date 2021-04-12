@@ -4,6 +4,7 @@ import './Main.css'
 import Quadro from './Quadro'
 import Aulao from '../img/aulao.jpg'
 import Minicurso from '../img/minicurso.jpg'
+import Eventos from '../img/eventos.jpg'
 
 const Home = () => {
     return (
@@ -37,7 +38,7 @@ const Home = () => {
             <img className="pic" src={Aulao} alt="auloes"></img>
             <div className="split">
                 <div className="title0">
-                    Aulões
+                    Aulões 📚
                 </div>
                 <div className="split-text">
                     O GET-Engenharia Computacional em parceria com os demais Grupos do 
@@ -52,7 +53,7 @@ const Home = () => {
             </div>
             <div className="split">
                 <div className="title0">
-                    Minicursos
+                    Minicursos 💻
                 </div>
                 <div className="split-text">
                     O GET Engenharia Computacional comumente realiza minicursos 
@@ -63,9 +64,49 @@ const Home = () => {
                     sendo criados ao longo do tempo novos materiais para novas ideias.
                 </div>
             </div>
-            <img className="pic" src={Minicurso} alt="auloes" style={{
+            <img className="pic" src={Minicurso} alt="curso" style={{
                 transform:"rotate(8deg)"
             }}></img>
+            <img className="pic" src={Eventos} alt="eventos"></img>
+            <div className="split">
+                <div className="title0">
+                    Eventos 👾
+                </div>
+                <div className="split-text">
+                    O GET participa de diversos eventos, alguns promovidos pela 
+                    própria UFJF como a Semana de Engenharia e a Semana da Computação,
+                    onde o grupo oferece uma variedade de minicursos acerca do aprendizado
+                    de tecnologias como Planilhas Digitais, Python, Linux, Latex, entre
+                    outras. Além disso, o grupo participa de enventos regionais com outros
+                    PETs e GETs como o InterPET, visando o compartilhamento dos projetos
+                    com outros grupos e trocar idéias, que contribui para o enriquecimento
+                    das atividades desenvolvidas.
+                </div>
+            </div>
+            <div className="split">
+                <div className="title0">
+                    Processo Seletivo 🎉
+                </div>
+                <div className="split-text">
+                    O Processo Seletivo 2020.3 para o GET EngComp já foi concluído.
+                    O processo contou com 5 participantes, sendo que eram oferecidas
+                    duas vagas para bolsistas e duas vagas para voluntários. Fique ligado
+                    em nossas redes sociais para saber quando rolar o próximo 😉
+                </div>
+            </div>
+            <div className="split">
+                <div className="title0">
+                    Parcerias 🤝
+                </div>
+                <div className="split-text">
+                    O GET atualmente tem parceria com o PET Elétrica UFJF
+                    (aulão de Algoritmos) e com o GET Mecânica (aulão
+                    de Mecânica). Além disso, esta desenvolvendo um projeto
+                    em parceria com a Escola Oscar Schmidt em Juiz de Fora 
+                    que visa ensinar para os alunos os conceitos básicos 
+                    de progamação utilizando Scratch.
+                </div>
+            </div>
         </div>
     )
 }
