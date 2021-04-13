@@ -9,6 +9,9 @@ import Eventos from '../img/eventos.jpg'
 const Home = () => {
     return (
         <div className="container-main">
+            <div className="avisos">
+                <Quadro />
+            </div>
             <div className="split">
                 <div className="title0">
                     Ok, mas o que é um GET? 🤔
@@ -19,6 +22,8 @@ const Home = () => {
                     da graduação e do meio acadêmico através de cursos, capacitações, aulões,
                     pesquisa e <Link to="/activities">outras atividades</Link>.
                 </div>
+            </div>
+            <div className="split">
                 <div className="title0">
                     Engenharia Computacional? 🤨
                 </div>
@@ -32,9 +37,7 @@ const Home = () => {
                     <Link to="/curso"> Clique aqui e veja nossa página dedicada ao curso</Link>.
                 </div>
             </div>
-            <div className="avisos">
-                <Quadro />
-            </div>
+            
             <img className="pic" src={Aulao} alt="auloes"></img>
             <div className="split">
                 <div className="title0">

@@ -2,6 +2,19 @@ import { Link } from 'react-router-dom'
 import Header from '../components/Header'
 import SiteFooter from '../components/SiteFooter'
 
+/*
+estava como segundo paragrafo, mas nao tem como comentar dentro do bloco, entao deixei aqui
+                    <div className="paragrafo">
+                        Como algumas das, 
+                        temos a realização de diversos minicursos, aulas de revisão de 
+                        conteúdo de matérias da graduação e projetos de acompanhamento 
+                        de novos ingressantes no curso. Já no meio da <Link to="/activities/pesquisa">pesquisa</Link>, além de 
+                        cada membro do grupo realizar a sua própria, o grupo organiza 
+                        atividades de <Link to="/activities/seminarios">Seminários</Link> de 
+                        pesquisas na área do curso e possuí alguns projetos que visam a inovação tecnológica.
+                    </div>
+*/
+
 const about = () => {
     return (
         <div>
@@ -23,16 +36,11 @@ const about = () => {
                         Sobre a Engenharia Computacional
                     </div>
                     <div className="paragrafo">
-                        Por ser um curso multidisciplinar, muitas pessoas não entendem o que os alunos, graduandos e graduados em Engenharia Computacional estudam. O curso possui um foco em Modelagem Computacional, ou seja, a partir de um fenômeno real construir uma representação mais simples do mesmo, e através de simulações analisar diferentes situações e problemas relacionados.
-                    </div>
-                    <div className="paragrafo">
-                        Como algumas das, 
-                        temos a realização de diversos minicursos, aulas de revisão de 
-                        conteúdo de matérias da graduação e projetos de acompanhamento 
-                        de novos ingressantes no curso. Já no meio da <Link to="/activities/pesquisa">pesquisa</Link>, além de 
-                        cada membro do grupo realizar a sua própria, o grupo organiza 
-                        atividades de <Link to="/activities/seminarios">Seminários</Link> de 
-                        pesquisas na área do curso e possuí alguns projetos que visam a inovação tecnológica.
+                        Por ser um curso multidisciplinar, muitas pessoas não entendem o que os 
+                        alunos, gradudandos e graduados em Engenharia Computacional estudam. O curso 
+                        possui como foco a Modelagem Computacional, que tem como objetivo construir 
+                        representações simplificadas de problemas complexos das Ciências Exatas e 
+                        Naturais, através de simulações dos fenômenos reais. 
                     </div>
                 </div>
                 <div className="text">
@@ -40,20 +48,40 @@ const about = () => {
                         A Importância da Modelagem
                     </div>
                     <div className="paragrafo">
-                        Mas qual a importância em ser capaz de modelar computacionalmente ? Modelos permitem testar teorias 
+                        Ok, mas qual é a importância em ser capaz de modelar computacionalmente 
+                        um fenômeno? A Modelagem Computacional permite encontrar relações entre 
+                        as variáveis que compôem um evento, além de formular e testar teorias que 
+                        descrevam bem seu comportamento. Dessa forma, ela possibilita que 
+                        fenômenos complexos sejam representados por processos mais simples e que 
+                        possam ser descritos por modelos compreensíveis. A Engenharia Computacional 
+                        apresenta aplicação em diversas areas, a exemplo de:
                         <br />
-                        A Engenharia Computacional apresenta aplicação em diversas areas como:
+                        <br />
                         <ul>
                             <li>Análise de Estruturas</li>
                             <li>Cálculo de Tensões em Veículos</li>
                             <li>Simulação de Impactos Ambientais</li>
                             <li>Previsão do Tempo</li>
                             <li>Extração de Petróleo</li>
-                            <li>Dinâmica dos Fluidos Computacional e Aerodinâmica</li>
+                            <li>Dinâmica dos Fluidos e Aerodinâmica</li>
                             <li>Atividade Eletromecânica do Coração</li>
-                            <li>Avaliação da Disseminação de Doenças como o COVID19</li>
+                            <li>Avaliação da Disseminação de Doenças</li>
                         </ul>
                     </div>
+
+                    <div className="title1">
+                        Proposta do Curso
+                    </div>
+                    <div className="paragrafo">
+                        Explicar a proposta do curso
+                    </div>
+                    <div className="paragrafo">
+                        A origem
+                    </div>
+                    <div className="paragrafo">
+                        Colocar o PPC novo
+                    </div>
+
                     <div className="title1">
                         Destaques no Curso
                     </div>

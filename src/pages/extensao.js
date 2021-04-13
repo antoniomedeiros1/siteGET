@@ -9,7 +9,7 @@ const extensao = () => {
         <Header />
         <div className='container-fluid' style={{ backgroundImage: `url(${Extensao})` }}>
             <div className='title'>
-                EXTENSÃO
+                Extensão
             </div>
         </div>
         <div className="container-main">

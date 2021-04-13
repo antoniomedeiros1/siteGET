@@ -14,7 +14,7 @@ import Seminarios from './pages/seminarios';
 import About from './pages/about';
 import Projects from './pages/projects';
 import Curso from './pages/curso';
-import TrabalhosCurso from './pages/curso';
+import TrabalhosCurso from './pages/trabalhoscurso';
 
 function App() {
 	return (

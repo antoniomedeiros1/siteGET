@@ -11,7 +11,7 @@ const ensino = () => {
             <Header />
             <div className='container-fluid' style={{ backgroundImage: `url(${Ensino})` }}>
                 <div className='title'>
-                    ENSINO
+                    Ensino
                 </div>
             </div>
             <div className="container-main">

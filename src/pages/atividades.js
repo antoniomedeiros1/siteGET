@@ -9,7 +9,7 @@ const atividades = () => {
             <Header />
             <div className='container-fluid' style={{ backgroundImage: `url(${Atividades})` }}>
                 <div className='title'>
-                    ATIVIDADES
+                    Atividades
                 </div>
             </div>
             <div className="container-main">

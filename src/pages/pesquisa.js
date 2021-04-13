@@ -13,7 +13,7 @@ const pesquisa = () => {
             <Header />
             <div className='container-fluid' style={{ backgroundImage: `url(${Pesquisa})` }}>
                 <div className='title'>
-                    PESQUISA
+                    Pesquisa
                 </div>
             </div>
             <div className="container-main">
@@ -24,14 +24,18 @@ const pesquisa = () => {
                         de Seminários e projetos de inovações tecnológicas.
                     </div>
                 </div>
-                <div className = 'title1'>
-                    Pesquisas Atuais
+                <div className="text">
+                    <div className = 'title1'>
+                        Pesquisas Atuais
+                    </div>
+                    <ProjetosPesquisa />
                 </div>
-                <ProjetosPesquisa />
-                <div className = 'title1'>
+                <div className="text">
+                    <div className = 'title1'>
                     Pesquisas Anteriores
+                    </div>
+                    <ProjetosPesquisaAntigos />
                 </div>
-                <ProjetosPesquisaAntigos />
             </div>
             <SiteFooter />
         </div>
