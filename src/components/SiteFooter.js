@@ -24,10 +24,10 @@ const SiteFooter = () => {
                 </div>
                 <div className="dir">
                     <ul>
-                        <li><a href="https://www.instagram.com/get.engcomp/">
+                        <li><a href="https://www.instagram.com/get.engcomp/" target="_blank">
                             <img src={Insta} className="big-icon"></img>    
                         </a></li>
-                        <li><a href="https://www.youtube.com/channel/UCzgvhQpo6-WMS4CMP8qlhjQ">
+                        <li><a href="https://www.youtube.com/channel/UCzgvhQpo6-WMS4CMP8qlhjQ" target="_blank">
                             <img src={Youtube} className="big-icon"></img>    
                         </a></li>
                     </ul>                
