@@ -9,9 +9,6 @@ import Eventos from '../img/eventos.jpg'
 const Home = () => {
     return (
         <div className="container-main">
-            <div className="avisos">
-                <Quadro />
-            </div>
             <div className="split">
                 <div className="title0">
                     Ok, mas o que é um GET? 🤔

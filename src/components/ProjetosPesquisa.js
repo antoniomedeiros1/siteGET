@@ -11,12 +11,12 @@ import Ondas from '../img/ondas.jfif'
 const ProjetosExtensao = () => {
     return (
         <div>
-            <div className='card'>
+            <div className='card' style={{borderLeftColor: "rgb(4, 122, 0)", color:"rgb(4, 122, 0)"}}>
                 <div className="card-content">
+                    <h3>
+                        Uso da biblioteca deal.II para a simulação de problemas da mecânica dos fluidos empregando métodos de elementos finitos
+                    </h3>
                     <p>
-                        <h3>
-                            Uso da biblioteca deal.II para a simulação de problemas da mecânica dos fluidos empregando métodos de elementos finitos
-                        </h3>
                         <h4><b>Aluno:</b></h4>Alexandre Vitor Silva Braga<br />
                         <h4><b>Orientador: </b></h4>Prof. Iury Higor Aguiar da Igreja (DCC)<br />
                         <br />
@@ -27,12 +27,12 @@ const ProjetosExtensao = () => {
                     <img src={Dealii} alt="dealii"></img>
                 </div>
             </div>
-            <div className='card'>
+            <div className='card' style={{borderLeftColor: "rgb(4, 122, 0)", color:"rgb(4, 122, 0)"}}>
                 <div className="card-content">
+                    <h3>
+                        Modelagem matemática para a vacina do SARS-CoV-2
+                    </h3>
                     <p>
-                        <h3>
-                            Modelagem matemática para a vacina do SARS-CoV-2
-                        </h3>
                         <h4><b>Aluno:</b></h4>Ana Carolina Guedes de Oliveira Vieira<br />
                         <h4><b>Orientador: </b></h4>Prof. Marcelo Lobosco (DCC)<br />
                         <br />
@@ -43,12 +43,12 @@ const ProjetosExtensao = () => {
                     <img src={Vacina} alt="vacina"></img>
                 </div>
             </div>
-            <div className='card'>
+            <div className='card' style={{borderLeftColor: "rgb(4, 122, 0)", color:"rgb(4, 122, 0)"}}>
                 <div className="card-content">
+                    <h3>
+                        Métodos Numéricos para Modelagem Acústica Bidimensional
+                    </h3>
                     <p>
-                        <h3>
-                            Métodos Numéricos para Modelagem Acústica Bidimensional
-                        </h3>
                         <h4><b>Aluno:</b></h4>Antonio José de Medeiros Filho<br />
                         <h4><b>Orientador: </b></h4> Prof. Elson Magalhães Toledo (MAC)<br />
                         <br />
@@ -59,12 +59,12 @@ const ProjetosExtensao = () => {
                     <img src={Ondas} alt="ondas"></img>
                 </div>
             </div>
-            <div className='card'>
+            <div className='card' style={{borderLeftColor: "rgb(4, 122, 0)", color:"rgb(4, 122, 0)"}}>
                 <div className="card-content">
-                    <p>
                     <h3>
                         Título
                     </h3>
+                    <p>
                         <h4><b>Aluno:</b></h4>Caio Cedrola Rocha<br />
                         <h4><b>Orientador: </b></h4>Prof. Leonardo Goliatt da Fonseca<br />
                         <br />
@@ -72,12 +72,12 @@ const ProjetosExtensao = () => {
                     </p>
                 </div>
             </div>
-            <div className='card'>
+            <div className='card' style={{borderLeftColor: "rgb(4, 122, 0)", color:"rgb(4, 122, 0)"}}>
                 <div className="card-content">
-                    <p>
                     <h3>
                         Modelagem Computacional no Estudo da Biomecânica Articular
                     </h3>
+                    <p>
                         <h4><b>Aluno:</b></h4>Daniel Souza Ferreira<br />
                         <h4><b>Orientador: </b></h4>Profa. Flávia de Souza Bastos (MAC)<br />
                         <br />
@@ -88,12 +88,12 @@ const ProjetosExtensao = () => {
                     <img src={Ossos} alt="ossos"></img>
                 </div>
             </div>
-            <div className='card'>
+            <div className='card' style={{borderLeftColor: "rgb(4, 122, 0)", color:"rgb(4, 122, 0)"}}>
                 <div className="card-content">
-                    <p>
                     <h3>
                         Estudo e implementação de técnicas de inteligência computacional para análise de dados de pacientes do SUS no contexto da doença renal crônica
                     </h3>
+                    <p>
                         <h4><b>Aluno:</b></h4>Gabriele Cesar Iwashima<br />
                         <h4><b>Orientador: </b></h4>Prof. Priscila Vanessa Zabala Capriles Goliatt (DCC)<br />
                         <br />
@@ -104,12 +104,12 @@ const ProjetosExtensao = () => {
                     <img src={Sus} alt="sus"></img>
                 </div>
             </div>
-            <div className='card'>
+            <div className='card' style={{borderLeftColor: "rgb(4, 122, 0)", color:"rgb(4, 122, 0)"}}>
                 <div className="card-content">
-                    <p>
                     <h3>
                         Detecção da COVID19 através de gravações de som de tosse
                     </h3>
+                    <p>
                         <h4><b>Aluno:</b></h4>Lucas Augusto Müller de Souza<br />
                         <h4><b>Orientadores: </b></h4>Heder Soares Bernardino (DCC), Alex Borges Vieira (DCC) e Jairo Francisco de Souza (DCC)<br />
                         <br />

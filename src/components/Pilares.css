@@ -1,20 +1,5 @@
-
-
-.title-triade {
-    font-size: 40px;
-    padding: 0px;
-    display: block;
-    font-weight: bold;
-    font-family: roboto;
-}
-
-.paragrafo-triade {
-    font-size: 22px;
-    font-family: roboto;
-    color: rgb(75, 75, 75);
-}
-
 .pilar {
+    background-color: rgb(233, 233, 233);
     padding: 10px;
     margin-bottom: 20px;
     margin-right: auto;
@@ -24,11 +9,31 @@
     display: block;
     text-align: left;
     transition: 0.2s;
-    text-decoration: none;
+    border-style: none;
+    border-left-style: solid;
+    border-left-width: 3px;
+    border-left-color: red;
+    border-radius: 7px;
 }
 
 .pilar:hover {
+    background-color: rgb(211, 211, 211);
     text-decoration: none;
-    text-shadow: 1px 1px 3px rgb(214, 214, 214);
-    color: rgb(156, 13, 13);
+    color: rgb(255, 50, 50);
+    box-shadow: 3px 3px 7px rgb(56, 56, 56);
+}
+
+.title-triade {
+    font-size: 35px;
+    padding-left: 10px;
+    display: block;
+    font-weight: bold;
+    font-family: roboto;
+}
+
+.paragrafo-triade {
+    padding: 10px;
+    font-size: 20px;
+    font-family: roboto;
+    color: rgb(48, 48, 48);
 }

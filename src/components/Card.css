@@ -1,20 +1,24 @@
 .card {
-    background-color: rgba(255, 255, 255, 0.158);
+    background-color: rgb(240, 240, 240);
     color: rgb(255, 58, 58);
-    text-shadow: 0px 0px 3px rgb(206, 206, 206);
     min-height: 180px;
     width: 90%;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     margin-left: auto;
     margin-right: auto;
     display: flex;
     flex-direction: row;
     transition: 0.2s;
-    border: none;
+    border-style: none;
+    border-left-style: solid;
+    border-left-width: 3px;
+    border-left-color: red;
+    border-radius: 7px;
+    box-shadow: 1px 1px 7px rgb(105, 105, 105);
 }
 
-.card:hover {
-    color: rgb(163, 0, 0);
+.card a:hover {
+    color: rgb(0, 0, 0);
 }
 
 .card h3 {
@@ -26,18 +30,17 @@
 .card p {
     font-family: 'Roboto';
     font-size: 16px;
-    padding: 0px 10px 0px 10px;
     color: rgb(66, 66, 66);
     text-shadow: none;
 }
 
 .card-content {
+    padding: 10px 10px 0px 20px;
     width: 80%;
 }
 
 .card-icon {
     width: 20%;
-    border-radius: 10px;
     padding: 20px;
 }
 

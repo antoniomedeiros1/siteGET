@@ -29,7 +29,7 @@ const Header = ({ title }) => {
                                 <li><Link to='/about/projects'>Projetos</Link></li>
                             </ul>
                         </li>
-                        <li><Link to='/tutorial'>Cursos</Link></li>
+                        <li><Link to='/tutorial'>Tutoriais</Link></li>
                         <li><Link to='/contact'>Contato</Link></li>
                     </ul>    
                 </nav>

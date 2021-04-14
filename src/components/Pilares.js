@@ -17,7 +17,7 @@ const Pilares = () => {
                     percurso acadêmico
                 </div>
             </Link>
-            <Link to="/activities/extensao" className="pilar">
+            <Link to="/activities/extensao" className="pilar" style={{borderLeftColor: "rgb(27, 136, 238)", color:"rgb(27, 136, 238)"}}>
                 <div className="title-triade">
                     Extensão 👥
                 </div>
@@ -27,7 +27,7 @@ const Pilares = () => {
                     ao longo da graduação
                 </div>
             </Link>
-            <Link to="/activities/pesquisa" className="pilar">
+            <Link to="/activities/pesquisa" className="pilar" style={{borderLeftColor: "rgb(4, 122, 0)", color:"rgb(4, 122, 0)"}}>
                 <div className="title-triade">
                     Pesquisa 🔬
                 </div>

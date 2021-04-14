@@ -15,6 +15,7 @@ import About from './pages/about';
 import Projects from './pages/projects';
 import Curso from './pages/curso';
 import TrabalhosCurso from './pages/trabalhoscurso';
+import Tutoriais from './pages/tutoriais';
 
 function App() {
 	return (
@@ -30,6 +31,7 @@ function App() {
 					<Route path='/about/projects' exact component={Projects} />
 					<Route path='/curso' exact component={Curso} />
 					<Route path='/curso/trabalhos' exact component={TrabalhosCurso} />
+					<Route path='/tutorial' exact component={Tutoriais} />
 				</ScrollToTop>	
 			</Router>
 	);
