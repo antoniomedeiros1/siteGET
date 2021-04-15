@@ -10,7 +10,6 @@ const HomePage = () => {
         <>
             <Header />
             <Banner />
-            <Quadro />
             <Home />
             <SiteFooter />
         </>

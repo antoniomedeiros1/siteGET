@@ -29,7 +29,7 @@ const Pilares = () => {
             </Link>
             <Link to="/activities/pesquisa" className="pilar" style={{borderLeftColor: "rgb(4, 122, 0)", color:"rgb(4, 122, 0)"}}>
                 <div className="title-triade">
-                    Pesquisa 🔬
+                    Pesquisa 🔬🔎
                 </div>
                 <div className="paragrafo-triade">
                     Cada membro desenvolve uma atividade de pesquisa individual

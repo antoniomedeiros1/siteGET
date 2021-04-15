@@ -15,8 +15,8 @@ import SistemaImune from '../img/sistemaImune.jpg'
 const ProjetosExtensao = () => {
     return (
         <div>
-            <details class="collapsible">
-                <summary><h2>2020</h2></summary>
+            <details class="collapsible" style={{margin:"20px"}}>
+                <summary style={{fontSize:"25px"}}>2020</summary>
                 <div class="collapsible-content">
                     <br />
                     <div className='card'>
@@ -87,8 +87,8 @@ const ProjetosExtensao = () => {
             </details>
             
 
-            <details className="collapsible">
-                <summary><h2>2019</h2></summary>
+            <details className="collapsible" class="collapsible" style={{margin:"20px"}}>
+                <summary style={{fontSize:"25px"}}>2019</summary>
                 <div className="collapsible-content">
                     <br />
                     <div className='card'>
@@ -204,8 +204,8 @@ const ProjetosExtensao = () => {
             </details>
 
 
-            <details className="collapsible">
-                <summary><h2>2018</h2></summary>
+            <details className="collapsible" class="collapsible" style={{margin:"20px"}}>
+                <summary style={{fontSize:"25px"}}>2018</summary>
                 <div className="collapsible-content">
                     <br />
                     <div className='card'>
