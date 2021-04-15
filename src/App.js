@@ -1,9 +1,9 @@
 import './App.css';
 import React from "react";
 import {
-	BrowserRouter,
-  BrowserRouter as Router,
-  Route,
+	Switch,
+	HashRouter as Router,
+	Route,
 } from "react-router-dom";
 import ScrollToTop from './components/ScrollToTop'
 import HomePage from './pages/index';
@@ -20,8 +20,8 @@ import Tutoriais from './pages/tutoriais';
 
 function App() {
 	return (
-		<BrowserRouter basename={process.env.PUBLIC_URL}>
-			<Router>
+		<Router>
+			<Switch>
 				<ScrollToTop>
 					<Route path='/' exact component={HomePage} />
 					<Route path='/activities' exact component={Atividades} />
@@ -34,9 +34,9 @@ function App() {
 					<Route path='/curso' exact component={Curso} />
 					<Route path='/curso/trabalhos' exact component={TrabalhosCurso} />
 					<Route path='/tutorial' exact component={Tutoriais} />
-				</ScrollToTop>	
-			</Router>
-		</BrowserRouter>
+				</ScrollToTop>
+			</Switch>
+		</Router>
 	);
 }
 
