@@ -1,6 +1,7 @@
 import './App.css';
 import React from "react";
 import {
+	BrowserRouter,
   BrowserRouter as Router,
   Route,
 } from "react-router-dom";
@@ -19,6 +20,7 @@ import Tutoriais from './pages/tutoriais';
 
 function App() {
 	return (
+		<BrowserRouter basename={process.env.PUBLIC_URL}>
 			<Router>
 				<ScrollToTop>
 					<Route path='/' exact component={HomePage} />
@@ -34,6 +36,7 @@ function App() {
 					<Route path='/tutorial' exact component={Tutoriais} />
 				</ScrollToTop>	
 			</Router>
+		</BrowserRouter>
 	);
 }
 
