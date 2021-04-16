@@ -30,7 +30,7 @@ const Header = ({ title }) => {
                             </ul>
                         </li>
                         <li><Link to='/tutorial'>Tutoriais</Link></li>
-                        <li><Link to='/contact'>Contato</Link></li>
+                        <li><Link to='/contato'>Contato</Link></li>
                     </ul>    
                 </nav>
 
