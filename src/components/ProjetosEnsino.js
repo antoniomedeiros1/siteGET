@@ -3,10 +3,10 @@ import '../components/Card.css'
 
 
 import Algoritmos from '../img/algoritmos.png'
-import Scratch from '../img/scratch.png'
+import Python from '../img/python.png'
 import Calcnum from '../img/calcnum.png'
 import Octave from '../img/octave.png'
-import Python from '../img/numpython.png'
+import Numpython from '../img/numpython.png'
 
 const ProjetosEnsino = () => {
     return (
@@ -51,22 +51,19 @@ const ProjetosEnsino = () => {
             <div className='card'>
                 <div className="card-content">
                     <h3>
-                        Scratch 🐯
+                    Python 🐍
                     </h3>
                     <p>
-                    Com o objetivo de ensinar lógica de programação a um público que 
-                    não conhece uma linguagem de programação previamente, com destaque 
-                    para crianças na faixa etária de 8 a 16 anos. Foram gravados uma 
-                    série de vídeos ensinando o uso da ferramenta Scratch, a qual 
-                    utiliza programação em blocos, uma metodologia visualmente amigável 
-                    que facilita a compreensão da lógica por detrás dela. <br/>
-                    Este curso foi originado a partir de uma parceria com a Escola Municipal 
-                    Oscar Schimidt em 2019 no projeto Cabeças Digitais.
+                    Nessa série de vídeos ensinamos a programar em Python utilizando o Google Colab, 
+                        uma ferramenta gratuita  e online com as mesmas capacidades do Jupyter-notebook e 
+                        mais algumas funcionalidades. Durante ela é ensinado o básico da sintaxe da 
+                        linguagem, além das bibliotecas NumPy e Matplotlib. O GET também oferece o curso
+                        de Python ao vivo em eventos
 
                     </p>
                 </div>
                 <div className="card-icon">
-                    <img src={Scratch} alt="algo"></img>
+                    <img src={Python} alt="algo"></img>
                 </div>
             </div>
 
@@ -106,7 +103,7 @@ const ProjetosEnsino = () => {
                     </p>
                 </div>
                 <div className="card-icon">
-                    <img src={Python} alt="algo"></img>
+                    <img src={Numpython} alt="algo"></img>
                 </div>
             </div>
         </div>
