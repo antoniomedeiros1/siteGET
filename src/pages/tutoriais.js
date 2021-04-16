@@ -31,7 +31,58 @@ const tutoriais = () => {
                     <div className="tutorial">
                         <details>
                             <summary>Planilhas Digitais</summary>
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/lajZX8aQ8ZM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                <details className="subDetails">
+                                    <summary>Ep. 1: Conceitos básicos</summary>
+                                    <iframe 
+                                        width="560" 
+                                        height="315" 
+                                        src="https://www.youtube.com/embed/lajZX8aQ8ZM" 
+                                        title="YouTube video player" 
+                                        frameborder="0" 
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                                        allowfullscreen="true"
+                                        style={{margin:"20px"}}>
+                                    </iframe>
+                                </details>
+                                <details className="subDetails">
+                                    <summary>Ep. 2: Tabelas, validação, classificação e filtro de dados</summary>
+                                    <iframe 
+                                        width="560" 
+                                        height="315" 
+                                        src="https://www.youtube.com/embed/U-k4hKiDnBE" 
+                                        title="YouTube video player" 
+                                        frameborder="0" 
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                                        allowfullscreen="true"
+                                        style={{margin:"20px"}}>
+                                    </iframe>
+                                </details>
+                                <details className="subDetails">
+                                    <summary>Ep. 3: Fórmulas/Funções</summary>
+                                    <iframe 
+                                        width="560" 
+                                        height="315" 
+                                        src="https://www.youtube.com/embed/0hUG69yPm7M" 
+                                        title="YouTube video player" 
+                                        frameborder="0" 
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                                        allowfullscreen="true"
+                                        style={{margin:"20px"}}>
+                                    </iframe>
+                                </details>
+                                <details className="subDetails">
+                                    <summary>Ep. 4: Formatação condicional e gráficos</summary>
+                                    <iframe 
+                                        width="560" 
+                                        height="315" 
+                                        src="https://www.youtube.com/embed/JYQmg2_-84s" 
+                                        title="YouTube video player" 
+                                        frameborder="0" 
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                                        allowfullscreen="true"
+                                        style={{margin:"20px"}}>
+                                    </iframe>
+                                </details>
                         </details>
                     </div>
                 </div>

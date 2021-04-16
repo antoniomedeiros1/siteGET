@@ -2,7 +2,7 @@ import '../components/Main.css'
 import '../components/Card.css'
 
 import Sheets from '../img/sheets.png'
-import Python from '../img/python.png'
+import Scratch from '../img/scratch.png'
 import Linux from '../img/linux.png'
 
 const ProjetosExtensao = () => {
@@ -29,18 +29,21 @@ const ProjetosExtensao = () => {
             <div className='card' style={{borderLeftColor: "rgb(27, 136, 238)", color:"rgb(27, 136, 238)"}}>
                 <div className="card-content">
                     <h3>
-                        Python 🐍
+                    Scratch 🐯
                     </h3>
                     <p>
-                        Nessa série de vídeos ensinamos a programar em Python utilizando o Google Colab, 
-                        uma ferramenta gratuita  e online com as mesmas capacidades do Jupyter-notebook e 
-                        mais algumas funcionalidades. Durante ela é ensinado o básico da sintaxe da 
-                        linguagem, além das bibliotecas NumPy e Matplotlib. O GET também oferece o curso
-                        de Python ao vivo em eventos
+                        Com o objetivo de ensinar lógica de programação a um público que 
+                        não conhece uma linguagem de programação previamente, com destaque 
+                        para crianças na faixa etária de 8 a 16 anos. Foram gravados uma 
+                        série de vídeos ensinando o uso da ferramenta Scratch, a qual 
+                        utiliza programação em blocos, uma metodologia visualmente amigável 
+                        que facilita a compreensão da lógica por detrás dela. <br/>
+                        Este curso foi originado a partir de uma parceria com a Escola Municipal 
+                        Oscar Schimidt em 2019 no projeto Cabeças Digitais.
                     </p>
                 </div>
                 <div className="card-icon">
-                    <img src={Python} alt="python"></img>
+                    <img src={Scratch} alt="scratch"></img>
                 </div>
             </div>
             <div className='card' style={{borderLeftColor: "rgb(27, 136, 238)", color:"rgb(27, 136, 238)"}}>
