@@ -12,10 +12,16 @@ const SiteFooter = () => {
             <div className="footer-container">
                 <div className="esq">
                     <ul>
-                        <li><img src={Mail} alt="mail" className="icon"></img>get.engcomputacional@engenharia.ufjf.br</li>
                         <li>
-                            <img src={Local} alt="local" className="icon"></img> 
-                            UFJF Prédio Eng. Computacional/DCC/Estatística 2º Andar
+                            <a href="mailto:get.engcomputacional@engenharia.ufjf.br">
+                            <img src={Mail} alt="mail" className="icon"></img>get.engcomputacional@engenharia.ufjf.br
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.google.com.br/maps/place/GET+Engenharia+Computacional+-+UFJF/@-21.7760943,-43.3745159,17z/data=!3m1!4b1!4m5!3m4!1s0x989ba19a60adb9:0x7a2ead724f5e3cf7!8m2!3d-21.7760702!4d-43.3724335" target="_blank">                            
+                                <img src={Local} alt="local" className="icon"></img> 
+                                UFJF Prédio Eng. Computacional/DCC/Estatística 2º Andar
+                            </a>
                         </li>
                     </ul>
                 </div>
