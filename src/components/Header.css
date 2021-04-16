@@ -155,20 +155,24 @@
 
 .dropcontent .dropdown_item-1 {
 	transform-origin: top center;
-	animation: slidedown 300ms ease-in-out forwards;
+	animation: slidedown 200ms ease-in-out backwards;
+	animation-delay: 60ms;
 }
 
 .dropcontent .dropdown_item-2 {
 	transform-origin: top center;
-	animation: slidedown 300ms ease-in-out forwards;
+	animation: slidedown 200ms ease-in-out backwards;
+	animation-delay: 120ms;
 }
 
 .dropcontent .dropdown_item-3 {
 	transform-origin: top center;
-	animation: slidedown 300ms ease-in-out forwards;
+	animation: slidedown 200ms ease-in-out backwards;
+	animation-delay: 180ms;
 }
 
 .dropcontent .dropdown_item-4 {
 	transform-origin: top center;
-	animation: slidedown 300ms ease-in-out forwards;
+	animation: slidedown 200ms ease-in-out backwards;
+	animation-delay: 240ms;
 }
