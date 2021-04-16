@@ -24,9 +24,9 @@ const Header = ({ title }) => {
                         </li>
                         <li className='dropdown'><Link to='/about'>Sobre o GET</Link>
                             <ul className='dropcontent'>
-                                <li><Link to='/about/presentation'>Apresentação</Link></li>
-                                <li><Link to='/about/members'>Membros</Link></li>
-                                <li><Link to='/about/projects'>Projetos</Link></li>
+                                <li className='dropdown_item-1'><Link to='/about/presentation'>Apresentação</Link></li>
+                                <li className='dropdown_item-2'><Link to='/about/members'>Membros</Link></li>
+                                <li className='dropdown_item-3'><Link to='/about/projects'>Projetos</Link></li>
                             </ul>
                         </li>
                         <li><Link to='/tutorial'>Tutoriais</Link></li>
