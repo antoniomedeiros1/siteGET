@@ -16,10 +16,10 @@ const Header = ({ title }) => {
                         <li className='active'><Link to='/curso'>Engenharia Computacional</Link></li>
                         <li className='dropdown'><Link to='/activities'>Atividades</Link>
                             <ul className='dropcontent'>
-                                <li className='.dropdown_item-1'><Link to='/activities/seminarios'>Seminários</Link></li>
-                                <li className='.dropdown_item-2'><Link to='/activities/extensao'>Extensão</Link></li>
-                                <li className='.dropdown_item-3'><Link to='/activities/pesquisa'>Pesquisa</Link></li>
-                                <li className='.dropdown_item-4'><Link to='/activities/ensino'>Ensino</Link></li>
+                                <li className='dropdown_item-1'><Link to='/activities/seminarios'>Seminários</Link></li>
+                                <li className='dropdown_item-2'><Link to='/activities/extensao'>Extensão</Link></li>
+                                <li className='dropdown_item-3'><Link to='/activities/pesquisa'>Pesquisa</Link></li>
+                                <li className='dropdown_item-4'><Link to='/activities/ensino'>Ensino</Link></li>
                             </ul>
                         </li>
                         <li className='dropdown'><Link to='/about'>Sobre o GET</Link>
