@@ -13,7 +13,6 @@ const Header = ({ title }) => {
                 <nav className = 'navbar'>
                     <ul>
                         <li><Link to='/'>Home</Link></li>
-                        <li className='active'><Link to='/curso'>Engenharia Computacional</Link></li>
                         <li className='dropdown'><Link to='/activities'>Atividades</Link>
                             <ul className='dropcontent'>
                                 <li><Link to='/activities/seminarios'>Seminários</Link></li>
@@ -24,13 +23,13 @@ const Header = ({ title }) => {
                         </li>
                         <li className='dropdown'><Link to='/about'>Sobre o GET</Link>
                             <ul className='dropcontent'>
-                                <li><Link to='/about/presentation'>Apresentação</Link></li>
                                 <li><Link to='/about/members'>Membros</Link></li>
                                 <li><Link to='/about/projects'>Projetos</Link></li>
                             </ul>
                         </li>
                         <li><Link to='/tutorial'>Tutoriais</Link></li>
                         <li><Link to='/contact'>Contato</Link></li>
+                        <li className='active'><Link to='/curso'>Engenharia Computacional</Link></li>
                     </ul>    
                 </nav>
 
