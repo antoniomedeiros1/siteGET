@@ -1,8 +1,7 @@
 .card {
     background-color: rgb(240, 240, 240);
     color: rgb(255, 58, 58);
-    min-height: 180px;
-    width: 90%;
+    width: 80%;
     margin-bottom: 20px;
     margin-left: auto;
     margin-right: auto;
@@ -23,25 +22,25 @@
 
 .card h3 {
     font-family: 'Roboto';
-    font-size: 25px;
+    font-size: 23px;
     font-weight: 600;
 }
 
 .card p {
     font-family: 'Roboto';
-    font-size: 16px;
+    font-size: 14px;
     color: rgb(66, 66, 66);
     text-shadow: none;
 }
 
 .card-content {
     padding: 10px 10px 0px 20px;
-    width: 80%;
+    width: 85%;
 }
 
 .card-icon {
-    width: 20%;
-    padding: 20px;
+    width: 15%;
+    padding: 15px;
 }
 
 .card-icon img {

@@ -1,10 +1,10 @@
 .pilar {
-    background-color: rgb(233, 233, 233);
-    padding: 10px;
-    margin-bottom: 20px;
+    background-color: rgb(240, 240, 240);
+    padding: 0px 10px 10px 10px;
+    margin-bottom: 25px;
+    margin-left: auto;
     margin-right: auto;
-	margin-left: auto;
-	width: 100%;
+	width: 90%;
     color: rgb(255, 50, 50);
     display: block;
     text-align: left;
@@ -12,20 +12,21 @@
     border-style: none;
     border-left-style: solid;
     border-left-width: 3px;
-    border-left-color: red;
+    border-left-color: rgb(255, 50, 50);
     border-radius: 7px;
+    box-shadow: 1px 1px 5px rgb(63, 63, 63);
 }
 
 .pilar:hover {
-    background-color: rgb(211, 211, 211);
+    background-color: rgb(230, 230, 230);
     text-decoration: none;
     color: rgb(255, 50, 50);
-    box-shadow: 3px 3px 7px rgb(56, 56, 56);
+    box-shadow: 1px 1px 7px rgb(56, 56, 56);
 }
 
 .title-triade {
     font-size: 35px;
-    padding-left: 10px;
+    padding: 10px 0px 0px 10px;
     display: block;
     font-weight: bold;
     font-family: roboto;
@@ -33,7 +34,7 @@
 
 .paragrafo-triade {
     padding: 10px;
-    font-size: 20px;
+    font-size: 16px;
     font-family: roboto;
     color: rgb(48, 48, 48);
 }

@@ -16,6 +16,9 @@ const ensino = () => {
             </div>
             <div className="container-main">
                 <div className='text'>
+                    <div className="title1">
+                        Ensino 📚
+                    </div>
                     <div className="paragrafo">
                         As atividades de ensino são direcionadas para
                         a comunidade acadêmica, visando melhorar a qualidade

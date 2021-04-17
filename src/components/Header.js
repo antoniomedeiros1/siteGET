@@ -13,7 +13,6 @@ const Header = ({ title }) => {
                 <nav className = 'navbar'>
                     <ul>
                         <li><Link to='/'>Home</Link></li>
-                        <li className='active'><Link to='/curso'>Engenharia Computacional</Link></li>
                         <li className='dropdown'><Link to='/activities'>Atividades</Link>
                             <ul className='dropcontent'>
                                 <li className='dropdown_item-1'><Link to='/activities/seminarios'>Seminários</Link></li>
@@ -31,6 +30,7 @@ const Header = ({ title }) => {
                         </li>
                         <li><Link to='/tutorial'>Tutoriais</Link></li>
                         <li><Link to='/contato'>Contato</Link></li>
+                        <li className='active'><Link to='/curso'>Engenharia Computacional</Link></li>
                     </ul>    
                 </nav>
 

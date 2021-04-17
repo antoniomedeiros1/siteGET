@@ -28,14 +28,14 @@ const pesquisa = () => {
                     <div className = 'title1'>
                         Pesquisas Atuais
                     </div>
-                    <ProjetosPesquisa />
                 </div>
+                <ProjetosPesquisa />
                 <div className="text">
                     <div className = 'title1'>
                     Pesquisas Anteriores
                     </div>
-                    <ProjetosPesquisaAntigos />
                 </div>
+                <ProjetosPesquisaAntigos />
             </div>
             <SiteFooter />
         </div>

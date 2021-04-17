@@ -3,5 +3,6 @@ body {
 	opacity: 1;
 	background-image:  linear-gradient(#ececec 0.9px, transparent 0.9px), linear-gradient(to right, #ececec 0.9px, #fcf7f7 0.9px);
 	background-size: 18px 18px;
+    background-attachment: fixed;
 	font-family: Roboto, 'Courier New', Courier, monospace;
 }
