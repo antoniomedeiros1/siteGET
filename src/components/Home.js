@@ -1,11 +1,15 @@
 import { Link } from "react-router-dom";
 import { motion, useViewportScroll } from "framer-motion"
 import './Main.css'
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
 
 import Quadro from './Quadro'
 import Aulao from '../img/aulao.jpg'
 import Minicurso from '../img/minicurso.jpg'
 import Eventos from '../img/eventos.jpg'
+
+AOS.init();
 
 const Home = () => {
 
@@ -13,7 +17,7 @@ const Home = () => {
 
     return (
         <div className="container-main">
-            <div className="split">
+            <div className="split" data-aos="zoom-in">
                 <div className="title0">
                     Ok, mas o que é um GET? 🤔
                 </div>
@@ -57,6 +61,11 @@ const Home = () => {
                 className="pic">
                 <img  src={Aulao} alt="auloes"></img>
             </motion.div>
+            <motion.div 
+                whileHover={{ scale: 1.5 }}
+                className="pic">
+                <img src={Minicurso} alt="curso" style={{transform:"rotate(-3deg)"}}></img>
+            </motion.div>
             <div className="split">
                 <div className="title0">
                     Minicursos 💻
@@ -70,11 +79,6 @@ const Home = () => {
                     sendo criados ao longo do tempo novos materiais para novas ideias.
                 </div>
             </div>
-            <motion.div 
-                whileHover={{ scale: 1.5 }}
-                className="pic">
-                <img src={Minicurso} alt="curso" style={{transform:"rotate(-3deg)"}}></img>
-            </motion.div>
             <div className="split">
                 <div className="title0">
                     Eventos 👾
