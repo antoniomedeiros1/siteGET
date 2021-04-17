@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { motion, useViewportScroll } from "framer-motion"
 import './Main.css'
 
 import Quadro from './Quadro'
@@ -7,6 +8,9 @@ import Minicurso from '../img/minicurso.jpg'
 import Eventos from '../img/eventos.jpg'
 
 const Home = () => {
+
+    const { scrollYProgress } = useViewportScroll();
+
     return (
         <div className="container-main">
             <div className="split">
@@ -19,8 +23,6 @@ const Home = () => {
                     da graduação e do meio acadêmico através de cursos, capacitações, aulões,
                     pesquisa e <Link to="/activities">outras atividades</Link>.
                 </div>
-            </div>
-            <div className="split">
                 <div className="title0">
                     Engenharia Computacional? 🤨
                 </div>
@@ -34,8 +36,7 @@ const Home = () => {
                     <Link to="/curso"> Clique aqui e veja nossa página dedicada ao curso</Link>.
                 </div>
             </div>
-            
-            <img className="pic" src={Aulao} alt="auloes"></img>
+            <Quadro />
             <div className="split">
                 <div className="title0">
                     Aulões 📚
@@ -51,6 +52,11 @@ const Home = () => {
                     evasão dos cursos atendidos.
                 </div>
             </div>
+            <motion.div 
+                whileHover={{ scale: 1.5 }}
+                className="pic">
+                <img  src={Aulao} alt="auloes"></img>
+            </motion.div>
             <div className="split">
                 <div className="title0">
                     Minicursos 💻
@@ -64,10 +70,11 @@ const Home = () => {
                     sendo criados ao longo do tempo novos materiais para novas ideias.
                 </div>
             </div>
-            <img className="pic" src={Minicurso} alt="curso" style={{
-                transform:"rotate(8deg)"
-            }}></img>
-            <img className="pic" src={Eventos} alt="eventos"></img>
+            <motion.div 
+                whileHover={{ scale: 1.5 }}
+                className="pic">
+                <img src={Minicurso} alt="curso" style={{transform:"rotate(-3deg)"}}></img>
+            </motion.div>
             <div className="split">
                 <div className="title0">
                     Eventos 👾
@@ -83,6 +90,11 @@ const Home = () => {
                     das atividades desenvolvidas.
                 </div>
             </div>
+            <motion.div 
+                whileHover={{ scale: 1.5 }}
+                className="pic">
+                <img src={Eventos} alt="eventos"></img>
+            </motion.div>
             <div className="split">
                 <div className="title0">
                     Processo Seletivo 🎉

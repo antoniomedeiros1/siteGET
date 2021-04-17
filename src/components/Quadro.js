@@ -7,12 +7,13 @@ import vanta from '../img/vanta.png'
 const Banner = () => {
     return (
         <Carousel style={{
-                            'width':"100%", 
-                            'height':"500px",
-                            'marginLeft':"auto", 
-                            'marginRight':"auto", 
+                            'width':"40%",
+                            'marginLeft':"5px",
+                            padding: "1px",
                             "overflow":"hidden",
-                            boxShadow: "1px 1px 3px #444"
+                            display: "inline-block",
+                            backgroundColor: "black",
+                            borderRadius: "2px"
                         }}>
             <Carousel.Item>
                 <a href="https://www.instagram.com/p/CNDtDeHBWfq/?utm_source=ig_web_copy_link" target="_blank" rel="noreferrer"><img
@@ -31,7 +32,7 @@ const Banner = () => {
                 ></img></a>
             </Carousel.Item>
             <Carousel.Item>
-                <a href="https://www.instagram.com/p/CMaJmxYhhq1/?utm_source=ig_web_copy_link" target="_blank" rel="noreferrer"><img
+                <a href="https://www.instagram.com/p/CL5Ghn0hpAK/" target="_blank" rel="noreferrer"><img
                     className="d-block w-100"
                     src={fazer}
                     alt="Insta3"

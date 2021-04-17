@@ -20,10 +20,10 @@
 }
 
 .paragrafo {
-    color: rgb(73, 73, 73);
+    color: rgb(85, 85, 85);
     padding-bottom: 20px;
     text-shadow: none;
-    font-size: 20px;
+    font-size: 18px;
     font-family: 'Merriweather';
 }
 
@@ -39,18 +39,18 @@
 
 .split {
     display: inline-block;
-    margin: 10px;
-    padding-bottom: 20px;
+    margin: 0px;
+    margin-bottom: 50px;
     vertical-align: top;
-    width: 46%;
+    width: 49%;
 }
 
 .split-text {
     padding: 0px 10px 0px 10px;
     display: block;
-    font-size: 19px;
+    font-size: 17.5px;
     font-family: 'Merriweather';
-    color: rgb(59, 59, 59);
+    color: rgb(85, 85, 85);
     position: relative;
 }
 
@@ -77,8 +77,8 @@
     margin: 0;
     padding: 0;
     display: block;
-    font-size: 40px;
-    color: rgb(51, 51, 51);
+    font-size: 35px;
+    color: rgb(70, 70, 70);
     text-align: left;
     font-weight: bold;
 }
@@ -89,14 +89,17 @@
 
 .pic {
     display: inline-block;
-    width: 33%;
-    margin: 35px;
-    margin-left: 80px;
-    padding: 10px;
-    padding-bottom: 50px;
+    width: 25%;
+    margin: 40px 0px 50px 70px;
+}
+
+.pic img {
+    width: 100%;
     background-color: rgb(255, 255, 255);
+    transform: rotate(3deg);
+    padding: 6px;
+    padding-bottom: 45px;
     box-shadow: 0px 0px 5px black;
-    transform: rotate(-8deg);
 }
 
 .collapsible {
