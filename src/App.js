@@ -18,6 +18,7 @@ import Curso from './pages/curso';
 import TrabalhosCurso from './pages/trabalhoscurso';
 import Tutoriais from './pages/tutoriais';
 import Contato from './pages/contato';
+import Membros from './pages/members';
 
 function App() {
 	return (
@@ -31,6 +32,7 @@ function App() {
 					<Route path='/activities/pesquisa' exact component={Pesquisa} />
 					<Route path='/activities/seminarios' exact component={Seminarios} />
 					<Route path='/about' exact component={About} />
+					<Route path='/about/members' exact component={Membros} />
 					<Route path='/about/projects' exact component={Projects} />
 					<Route path='/curso' exact component={Curso} />
 					<Route path='/curso/trabalhos' exact component={TrabalhosCurso} />

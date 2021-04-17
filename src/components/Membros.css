@@ -1,0 +1,25 @@
+.col {
+    text-align: center;
+    font-size: medium;
+}
+
+.fotoMembro img {
+    width: 100px;
+    height: auto;
+}
+
+.nomeMembro {
+    margin-top: 10px;
+}
+
+h1 {
+    font-size: medium;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: medium;
+    color: dimgrey;
+    font-weight: bold;
+    /* font-style: italic; */
+}
