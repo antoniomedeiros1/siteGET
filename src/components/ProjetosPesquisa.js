@@ -11,7 +11,9 @@ import Ondas from '../img/ondas.jfif'
 const ProjetosExtensao = () => {
     return (
         <div>
-            <div className='card' style={{borderLeftColor: "rgb(4, 122, 0)", color:"rgb(4, 122, 0)"}}>
+            <div className='card'
+            data-aos="fade-left" 
+            style={{borderLeftColor: "rgb(4, 122, 0)", color:"rgb(4, 122, 0)"}}>
                 <div className="card-content">
                     <h3>
                         Uso da biblioteca deal.II para a simulação de problemas da mecânica dos fluidos empregando métodos de elementos finitos
@@ -27,7 +29,9 @@ const ProjetosExtensao = () => {
                     <img src={Dealii} alt="dealii"></img>
                 </div>
             </div>
-            <div className='card' style={{borderLeftColor: "rgb(4, 122, 0)", color:"rgb(4, 122, 0)"}}>
+            <div className='card'
+            data-aos="fade-left"  
+            style={{borderLeftColor: "rgb(4, 122, 0)", color:"rgb(4, 122, 0)"}}>
                 <div className="card-content">
                     <h3>
                         Modelagem matemática para a vacina do SARS-CoV-2
@@ -43,7 +47,9 @@ const ProjetosExtensao = () => {
                     <img src={Vacina} alt="vacina"></img>
                 </div>
             </div>
-            <div className='card' style={{borderLeftColor: "rgb(4, 122, 0)", color:"rgb(4, 122, 0)"}}>
+            <div className='card' 
+            data-aos="fade-left" 
+            style={{borderLeftColor: "rgb(4, 122, 0)", color:"rgb(4, 122, 0)"}}>
                 <div className="card-content">
                     <h3>
                         Métodos Numéricos para Modelagem Acústica Bidimensional
@@ -59,7 +65,9 @@ const ProjetosExtensao = () => {
                     <img src={Ondas} alt="ondas"></img>
                 </div>
             </div>
-            <div className='card' style={{borderLeftColor: "rgb(4, 122, 0)", color:"rgb(4, 122, 0)"}}>
+            <div className='card' 
+            data-aos="fade-left" 
+            style={{borderLeftColor: "rgb(4, 122, 0)", color:"rgb(4, 122, 0)"}}>
                 <div className="card-content">
                     <h3>
                         Título
@@ -72,7 +80,9 @@ const ProjetosExtensao = () => {
                     </p>
                 </div>
             </div>
-            <div className='card' style={{borderLeftColor: "rgb(4, 122, 0)", color:"rgb(4, 122, 0)"}}>
+            <div className='card' 
+            data-aos="fade-left" 
+            style={{borderLeftColor: "rgb(4, 122, 0)", color:"rgb(4, 122, 0)"}}>
                 <div className="card-content">
                     <h3>
                         Modelagem Computacional no Estudo da Biomecânica Articular
@@ -88,7 +98,9 @@ const ProjetosExtensao = () => {
                     <img src={Ossos} alt="ossos"></img>
                 </div>
             </div>
-            <div className='card' style={{borderLeftColor: "rgb(4, 122, 0)", color:"rgb(4, 122, 0)"}}>
+            <div className='card' 
+            data-aos="fade-left" 
+            style={{borderLeftColor: "rgb(4, 122, 0)", color:"rgb(4, 122, 0)"}}>
                 <div className="card-content">
                     <h3>
                         Estudo e implementação de técnicas de inteligência computacional para análise de dados de pacientes do SUS no contexto da doença renal crônica
@@ -104,7 +116,9 @@ const ProjetosExtensao = () => {
                     <img src={Sus} alt="sus"></img>
                 </div>
             </div>
-            <div className='card' style={{borderLeftColor: "rgb(4, 122, 0)", color:"rgb(4, 122, 0)"}}>
+            <div className='card' 
+            data-aos="fade-left" 
+            style={{borderLeftColor: "rgb(4, 122, 0)", color:"rgb(4, 122, 0)"}}>
                 <div className="card-content">
                     <h3>
                         Detecção da COVID19 através de gravações de som de tosse

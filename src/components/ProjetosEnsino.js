@@ -11,7 +11,7 @@ import Numpython from '../img/numpython.png'
 const ProjetosEnsino = () => {
     return (
         <div>
-            <div className='card'>
+            <div className='card' data-aos="fade-left">
                 <div className="card-content">
                     <h3>
                         Aulão de Algoritmos 👩‍💻
@@ -30,7 +30,7 @@ const ProjetosEnsino = () => {
                 </div>
             </div>
 
-            <div className='card'>
+            <div className='card' data-aos="fade-left">
                 <div className="card-content">
                     <h3>
                         Aulão de Cálculo Numérico 📈
@@ -48,7 +48,7 @@ const ProjetosEnsino = () => {
                 </div>
             </div>
             
-            <div className='card'>
+            <div className='card' data-aos="fade-left">
                 <div className="card-content">
                     <h3>
                     Python 🐍
@@ -67,7 +67,7 @@ const ProjetosEnsino = () => {
                 </div>
             </div>
 
-            <div className='card'>
+            <div className='card' data-aos="fade-left">
                 <div className="card-content">
                     <h3>
                         Curso de Octave ⚙️
@@ -86,7 +86,7 @@ const ProjetosEnsino = () => {
                 </div>
             </div>
 
-            <div className='card'>
+            <div className='card' data-aos="fade-left">
                 <div className="card-content">
                     <h3>
                         Métodos Numéricos com Python 🐍

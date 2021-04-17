@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import { motion, useViewportScroll } from "framer-motion"
 import './Main.css'
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
@@ -13,24 +12,31 @@ AOS.init();
 
 const Home = () => {
 
-    const { scrollYProgress } = useViewportScroll();
-
     return (
         <div className="container-main">
-            <div className="split" data-aos="zoom-in">
-                <div className="title0">
+            <div className="split">
+
+                <div className="title0" 
+                data-aos="zoom-in"
+                data-aos-duration="1000">
                     Ok, mas o que é um GET? 🤔
                 </div>
-                <div className="split-text">
+                <div className="split-text" 
+                data-aos="fade-up"
+                data-aos-duration="1200">
                     O Grupo de Educação Tutorial (GET 🤯) é um grupo formado por estudantes de
                     universidades federais que buscam contribuir para a melhoria da sociedade,
                     da graduação e do meio acadêmico através de cursos, capacitações, aulões,
                     pesquisa e <Link to="/activities">outras atividades</Link>.
                 </div>
-                <div className="title0">
+                <div className="title0" 
+                data-aos="zoom-in"
+                data-aos-duration="1000">
                     Engenharia Computacional? 🤨
                 </div>
-                <div className="split-text">
+                <div className="split-text" 
+                data-aos="fade-up"
+                data-aos-duration="1200">
                     Com uma proposta inovadora e ousada, a Universidade Federal de Juiz de Fora
                     fundou o curso de Engenharia Computacional, em conjunto com a Faculdade
                     de Engenharia e o Instituto de Ciências Exatas. O curso tem como característica
@@ -42,10 +48,14 @@ const Home = () => {
             </div>
             <Quadro />
             <div className="split">
-                <div className="title0">
+                <div className="title0" 
+                data-aos="zoom-in"
+                data-aos-duration="1200">
                     Aulões 📚
                 </div>
-                <div className="split-text">
+                <div className="split-text" 
+                data-aos="fade-up"
+                data-aos-duration="1400">
                     O GET-Engenharia Computacional em parceria com os demais Grupos do 
                     Programa de Educação Tutorial dos cursos de Engenharia realiza Aulões 
                     de revisão em diversas disciplinas para os alunos dos Institutos de 
@@ -56,21 +66,25 @@ const Home = () => {
                     evasão dos cursos atendidos.
                 </div>
             </div>
-            <motion.div 
-                whileHover={{ scale: 1.5 }}
-                className="pic">
+            <div className="pic"
+            data-aos="fade-left"
+            data-aos-duration="1000">
                 <img  src={Aulao} alt="auloes"></img>
-            </motion.div>
-            <motion.div 
-                whileHover={{ scale: 1.5 }}
-                className="pic">
+            </div>
+            <div className="pic"
+            data-aos="fade-right"
+            data-aos-duration="1300">
                 <img src={Minicurso} alt="curso" style={{transform:"rotate(-3deg)"}}></img>
-            </motion.div>
+            </div>
             <div className="split">
-                <div className="title0">
+                <div className="title0" 
+                data-aos="zoom-in"
+                data-aos-duration="1300">
                     Minicursos 💻
                 </div>
-                <div className="split-text">
+                <div className="split-text" 
+                data-aos="fade-up"
+                data-aos-duration="1500">
                     O GET Engenharia Computacional comumente realiza minicursos 
                     acerca do uso de ferramentas tecnológicas que podem 
                     contribuir em diversas áreas, buscando utilizar recursos 
@@ -80,10 +94,14 @@ const Home = () => {
                 </div>
             </div>
             <div className="split">
-                <div className="title0">
+                <div className="title0" 
+                data-aos="zoom-in"
+                data-aos-duration="2500">
                     Eventos 👾
                 </div>
-                <div className="split-text">
+                <div className="split-text" 
+                data-aos="fade-up"
+                data-aos-duration="2500">
                     O GET participa de diversos eventos, alguns promovidos pela 
                     própria UFJF como a Semana de Engenharia e a Semana da Computação,
                     onde o grupo oferece uma variedade de minicursos acerca do aprendizado
@@ -94,16 +112,20 @@ const Home = () => {
                     das atividades desenvolvidas.
                 </div>
             </div>
-            <motion.div 
-                whileHover={{ scale: 1.5 }}
-                className="pic">
+            <div className="pic"
+            data-aos="fade-left"
+            data-aos-duration="1700">
                 <img src={Eventos} alt="eventos"></img>
-            </motion.div>
+            </div>
             <div className="split">
-                <div className="title0">
+                <div className="title0" 
+                data-aos="zoom-in"
+                data-aos-duration="1000">
                     Processo Seletivo 🎉
                 </div>
-                <div className="split-text">
+                <div className="split-text" 
+                data-aos="fade-up"
+                data-aos-duration="1500">
                     O Processo Seletivo 2020.3 para o GET EngComp já foi concluído.
                     O processo contou com 5 participantes, sendo que eram oferecidas
                     duas vagas para bolsistas e duas vagas para voluntários. Fique ligado
@@ -111,10 +133,14 @@ const Home = () => {
                 </div>
             </div>
             <div className="split">
-                <div className="title0">
+                <div className="title0" 
+                data-aos="zoom-in"
+                data-aos-duration="1500">
                     Parcerias 🤝
                 </div>
-                <div className="split-text">
+                <div className="split-text" 
+                data-aos="fade-up"
+                data-aos-duration="1700">
                     O GET atualmente tem parceria com o PET Elétrica UFJF
                     (aulão de Algoritmos) e com o GET Mecânica (aulão
                     de Mecânica). Além disso, esta desenvolvendo um projeto

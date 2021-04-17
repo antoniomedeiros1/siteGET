@@ -8,7 +8,9 @@ import Linux from '../img/linux.png'
 const ProjetosExtensao = () => {
     return (
         <div>
-            <div className='card' style={{borderLeftColor: "rgb(27, 136, 238)", color:"rgb(27, 136, 238)"}}>
+            <div className='card'
+            data-aos="fade-left"
+            style={{borderLeftColor: "rgb(27, 136, 238)", color:"rgb(27, 136, 238)"}}>
                 <div className="card-content">
                     <h3>
                         Planilhas Digitais (Google Sheets) 📊
@@ -26,7 +28,9 @@ const ProjetosExtensao = () => {
                     <img src={Sheets} alt="sheets"></img>
                 </div>
             </div>
-            <div className='card' style={{borderLeftColor: "rgb(27, 136, 238)", color:"rgb(27, 136, 238)"}}>
+            <div className='card' 
+            data-aos="fade-left"
+            style={{borderLeftColor: "rgb(27, 136, 238)", color:"rgb(27, 136, 238)"}}>
                 <div className="card-content">
                     <h3>
                     Scratch 🐯
@@ -46,7 +50,9 @@ const ProjetosExtensao = () => {
                     <img src={Scratch} alt="scratch"></img>
                 </div>
             </div>
-            <div className='card' style={{borderLeftColor: "rgb(27, 136, 238)", color:"rgb(27, 136, 238)"}}>
+            <div className='card' 
+            data-aos="fade-left"
+            style={{borderLeftColor: "rgb(27, 136, 238)", color:"rgb(27, 136, 238)"}}>
                 <div className="card-content">
                     <h3>
                         Linux 🐧

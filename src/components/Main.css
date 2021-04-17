@@ -89,21 +89,20 @@
 
 .pic {
     display: inline-block;
-    width: 25%;
-    margin: 40px 50px 50px 70px;
+    width: 35%;
+    margin: 40px 50px 50px 40px;
 }
 
 .pic img {
     width: 100%;
     background-color: rgb(255, 255, 255);
     transform: rotate(3deg);
-    padding: 6px;
-    padding-bottom: 45px;
+    padding: 10px;
+    padding-bottom: 50px;
     box-shadow: 0px 0px 5px black;
 }
 
 .collapsible {
-    background-color: #eee;
     color: #444;
     cursor: pointer;
     padding: 18px;
