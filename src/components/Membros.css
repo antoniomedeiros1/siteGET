@@ -1,17 +1,3 @@
-.col {
-    text-align: center;
-    font-size: medium;
-}
-
-.fotoMembro img {
-    width: 100px;
-    height: auto;
-}
-
-.nomeMembro {
-    margin-top: 10px;
-}
-
 h1 {
     font-size: medium;
     font-weight: bold;
@@ -22,4 +8,68 @@ h2 {
     color: dimgrey;
     font-weight: bold;
     /* font-style: italic; */
+}
+
+.membro {
+    position: relative;
+    width: 100px;
+}
+
+.fotoMembro {
+    border-radius: 50%;
+    width: 100%;
+    height: auto;
+    opacity: 1;
+    display: block;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.redesSociaisMembro {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: medium;
+}
+
+.redesSociaisMembro img {
+    width: 50%;
+}
+
+.redesSociaisMembro a img {
+    margin: 5px;
+}
+
+.col:hover .fotoMembro {
+    opacity: 0.3;
+}
+
+.col:hover .redesSociaisMembro {
+    opacity: 1;
+}
+
+.nomeMembro {
+    display: inline-block;
+    width: 130px;
+}
+
+.nomeMembro .textoMembro {
+    transition: .25s ease;
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 5%;
+    position: absolute;
+    z-index: 1;
+}
+
+.nomeMembro:hover .textoMembro {
+    visibility: visible;
 }

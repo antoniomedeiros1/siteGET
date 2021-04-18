@@ -8,8 +8,8 @@ const members = () => {
             <Header />
             <div className="container-main">
                 <Membros />
-            <SiteFooter />
             </div>
+            <SiteFooter />
         </div>
     )
 }
