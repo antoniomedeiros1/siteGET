@@ -1,4 +1,5 @@
 import '../components/Main.css'
+import {Link} from "react-router-dom";
 
 import Header from "../components/Header"
 import SiteFooter from "../components/SiteFooter"
@@ -18,16 +19,20 @@ const tutoriais = () => {
                         tecnologias importantes tanto para o meio acadêmico quanto para
                         o mercado de trabalho
                     </div>
-                    <div className="tutorial">
-                        <details>
-                            <summary>Python</summary>
-                        </details>
-                    </div>
-                    <div className="tutorial">
-                        <details>
-                            <summary>Linux</summary>
-                        </details>
-                    </div>
+                    <ul className="listagem">
+                        <li className="tutorial">
+                            <Link to="/tutorial/python" >Curso de Python</Link>
+                        </li>
+                        <li className="tutorial">
+                            <Link to="/tutorial/linux" >Curso de Linux</Link>
+                        </li>
+                        <li className="tutorial">
+                            <Link to="/tutorial/scratch" >Minicurso de Scratch</Link>
+                        </li>
+                        <li className="tutorial">
+                            <Link to="/tutorial/planilhas" >Planilhas Digitais</Link>
+                        </li>
+                    </ul>
                     <div className="tutorial">
                         <details>
                             <summary>Planilhas Digitais</summary>
