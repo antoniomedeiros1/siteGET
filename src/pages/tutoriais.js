@@ -20,18 +20,18 @@ const tutoriais = () => {
                         o mercado de trabalho
                     </div>
                     <ul className="listagem">
-                        <li className="tutorial">
-                            <Link to="/tutorial/python" >Curso de Python</Link>
-                        </li>
-                        <li className="tutorial">
-                            <Link to="/tutorial/linux" >Curso de Linux</Link>
-                        </li>
-                        <li className="tutorial">
-                            <Link to="/tutorial/scratch" >Minicurso de Scratch</Link>
-                        </li>
-                        <li className="tutorial">
-                            <Link to="/tutorial/planilhas" >Planilhas Digitais</Link>
-                        </li>
+                        <Link to="/tutorial/python">
+                            <li className="tutorial" >Curso de Python</li>
+                        </Link>
+                        <Link to="/tutorial/linux">
+                            <li  className="tutorial" >Curso de Linux</li>
+                        </Link>
+                        <Link to="/tutorial/scratch" >
+                            <li className="tutorial" >Minicurso de Scratch</li>
+                        </Link>
+                        <Link to="/tutorial/planilhas">
+                            <li className="tutorial" >Planilhas Digitais</li>
+                        </Link>
                     </ul>
                     <div className="tutorial">
                         <details>
