@@ -19,78 +19,58 @@ const tutoriais = () => {
                         tecnologias importantes tanto para o meio acadêmico quanto para
                         o mercado de trabalho
                     </div>
-                    <ul className="listagem">
-                        <Link to="/tutorial/python">
-                            <li className="tutorial" >Curso de Python</li>
-                        </Link>
-                        <Link to="/tutorial/linux">
-                            <li  className="tutorial" >Curso de Linux</li>
-                        </Link>
-                        <Link to="/tutorial/scratch" >
-                            <li className="tutorial" >Minicurso de Scratch</li>
-                        </Link>
-                        <Link to="/tutorial/planilhas">
-                            <li className="tutorial" >Planilhas Digitais</li>
-                        </Link>
-                    </ul>
-                    <div className="tutorial">
-                        <details>
-                            <summary>Planilhas Digitais</summary>
-                                <details className="subDetails">
-                                    <summary>Ep. 1: Conceitos básicos</summary>
-                                    <iframe 
-                                        width="560" 
-                                        height="315" 
-                                        src="https://www.youtube.com/embed/lajZX8aQ8ZM" 
-                                        title="YouTube video player" 
-                                        frameborder="0" 
-                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                                        allowfullscreen="true"
-                                        style={{margin:"20px"}}>
-                                    </iframe>
-                                </details>
-                                <details className="subDetails">
-                                    <summary>Ep. 2: Tabelas, validação, classificação e filtro de dados</summary>
-                                    <iframe 
-                                        width="560" 
-                                        height="315" 
-                                        src="https://www.youtube.com/embed/U-k4hKiDnBE" 
-                                        title="YouTube video player" 
-                                        frameborder="0" 
-                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                                        allowfullscreen="true"
-                                        style={{margin:"20px"}}>
-                                    </iframe>
-                                </details>
-                                <details className="subDetails">
-                                    <summary>Ep. 3: Fórmulas/Funções</summary>
-                                    <iframe 
-                                        width="560" 
-                                        height="315" 
-                                        src="https://www.youtube.com/embed/0hUG69yPm7M" 
-                                        title="YouTube video player" 
-                                        frameborder="0" 
-                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                                        allowfullscreen="true"
-                                        style={{margin:"20px"}}>
-                                    </iframe>
-                                </details>
-                                <details className="subDetails">
-                                    <summary>Ep. 4: Formatação condicional e gráficos</summary>
-                                    <iframe 
-                                        width="560" 
-                                        height="315" 
-                                        src="https://www.youtube.com/embed/JYQmg2_-84s" 
-                                        title="YouTube video player" 
-                                        frameborder="0" 
-                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                                        allowfullscreen="true"
-                                        style={{margin:"20px"}}>
-                                    </iframe>
-                                </details>
-                        </details>
-                    </div>
                 </div>
+                <ul className="flex-container">
+                    <Link to="/tutorial/python">
+                        <li className="flex-items" >
+                            <h2>Curso de Python</h2>
+                            <h3>
+                                Série de vídeos sobre conceitos básicos da linguagem Python
+                                e Google Colab
+                            </h3>
+                        </li>
+                    </Link>
+                    <Link to="/tutorial/linux">
+                        <li className="flex-items" style={{backgroundImage:"url(http://lofrev.net/wp-content/photos/2014/10/Linux-logo.png)"}}>
+                            <h2>Curso de Linux</h2>
+                            <h3>
+                                Conceitos básicos do SO Linux e suas intermináveis distribuições
+                            </h3>
+                        </li>
+                    </Link>
+                    <Link to="/tutorial/planilhas">
+                        <li className="flex-items" style={{backgroundImage:"url(https://www.ifpb.edu.br/itaporanga/noticias/2019/09/inscricoes-abertas-para-curso-de-planilhas-google-intermediario/planilhas-google.png)"}}>
+                            <h2>Planilhas Digitais</h2>
+                            <h3>
+                                Aprenda a utilizar planilhas de forma eficiente e produtiva 
+                            </h3>
+                        </li>
+                    </Link>
+                    <Link to="/tutorial/scratch" >
+                        <li className="flex-items" style={{backgroundImage:"url(https://meet-and-code.org/pt/pt/event-downloads/3115/)"}}>
+                            <h2>Curso de Scratch</h2>
+                            <h3>
+                                Utilização da ferramenta introdutória à progamação Scratch
+                            </h3>
+                        </li>
+                    </Link>
+                    <Link to="/tutorial/octave" >
+                        <li className="flex-items" style={{backgroundImage:"url(https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Gnu-octave-logo.svg/1024px-Gnu-octave-logo.svg.png)"}}>
+                            <h2>Curso de Octave</h2>
+                            <h3>
+                                Aprenda as principais funções da ferramenta muito utilizada em computação numérica
+                            </h3>
+                        </li>
+                    </Link>
+                    <Link to="/tutorial/latex" >
+                        <li className="flex-items" style={{backgroundImage:"url(https://images.ctfassets.net/nrgyaltdicpt/6gsvc5Ogjmu04I4Miu0uGg/cb1d4391717d2ab8d5e42ede6fb0eef1/overleaf_wide_colour_light_bg.png)"}}>
+                            <h2>Curso de LaTex</h2>
+                            <h3>
+                                Aprenda a utilizar o LaTex dentro do ambiente do Overleaf
+                            </h3>
+                        </li>
+                    </Link>
+                </ul>
             </div>
             <SiteFooter />
         </div>
