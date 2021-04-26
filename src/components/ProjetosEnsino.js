@@ -54,7 +54,7 @@ const ProjetosEnsino = () => {
                     Python 🐍
                     </h3>
                     <p>
-                    Nessa série de vídeos ensinamos a programar em Python utilizando o Google Colab, 
+                        Nessa série de vídeos ensinamos a programar em Python utilizando o Google Colab, 
                         uma ferramenta gratuita  e online com as mesmas capacidades do Jupyter-notebook e 
                         mais algumas funcionalidades. Durante ela é ensinado o básico da sintaxe da 
                         linguagem, além das bibliotecas NumPy e Matplotlib. O GET também oferece o curso

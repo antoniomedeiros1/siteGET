@@ -148,7 +148,7 @@ iframe {
     background-position: center 14px;
     width: 240px;
     height: 260px;
-    background-color: rgb(241, 241, 241);
+    background-color: rgb(245, 245, 245);
     text-align: center;
     padding: 10px;
     border-radius: 8px;
@@ -163,8 +163,8 @@ iframe {
 
 .flex-items h2 {
     font-size: 25px;
-    font-weight: bold;
-    color: #da7272;
+    font-weight: 550;
+    color: #e26c6c;
     padding-top: 116px;
 }
 

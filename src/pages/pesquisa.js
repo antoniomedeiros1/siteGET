@@ -18,13 +18,12 @@ const pesquisa = () => {
             </div>
             <div className="container-main">
                 <div className="text">
+                    <div className="title1">Pesquisa 🔎</div>
                     <div className="paragrafo">
                         Cada membro desenvolve uma atividade de pesquisa individual
                         relacionada com a Engenharia Computacional, além da organização 
                         de Seminários e projetos de inovações tecnológicas.
                     </div>
-                </div>
-                <div className="text">
                     <div className = 'title1'>
                         Pesquisas Atuais
                     </div>
