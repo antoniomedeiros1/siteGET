@@ -7,17 +7,6 @@ const about = () => {
         <div>
             <Header />
             <div className="container-main">
-                <iframe
-                    style={{display: "block", margin: "auto"}}
-                    width="853" 
-                    height="505" 
-                    src="https://www.youtube.com/embed/KmOu3gS1ciY" 
-                    title="YouTube video player" 
-                    frameborder="0" 
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                    allowfullscreen="true"
-                >
-                </iframe>
                 <div className="text">
                     <div className="title1">
                         Sobre o GET Engenharia Computacional
@@ -40,6 +29,17 @@ const about = () => {
                         pesquisas na área do curso e possuí alguns projetos que visam a inovação tecnológica.
                     </div>
                 </div>
+                <iframe
+                    style={{display: "block", margin: "auto"}}
+                    width="853" 
+                    height="505" 
+                    src="https://www.youtube.com/embed/KmOu3gS1ciY" 
+                    title="YouTube video player" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen="true"
+                >
+                </iframe>
                 <div className="text">
                     <div className="title1">
                         Localização
