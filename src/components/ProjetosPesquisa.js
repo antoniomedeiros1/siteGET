@@ -7,6 +7,7 @@ import Ossos from '../img/ossos.jfif'
 import Sus from '../img/sus.png'
 import Tosse from '../img/tosse.jfif'
 import Ondas from '../img/ondas.jfif'
+import Zambeze from '../img/zambeze.jpg'
 
 const ProjetosExtensao = () => {
     return (
@@ -70,14 +71,17 @@ const ProjetosExtensao = () => {
             style={{borderLeftColor: "rgb(4, 122, 0)", color:"rgb(4, 122, 0)"}}>
                 <div className="card-content">
                     <h3>
-                        Título
+                        Modelos de aprendizado profundo com transferência de aprendizagem para modelagem hidrológica
                     </h3>
                     <p>
-                        <h4><b>Aluno:</b></h4>Caio Cedrola Rocha<br />
-                        <h4><b>Orientador: </b></h4>Prof. Leonardo Goliatt da Fonseca<br />
-                        <br />
-                    Descrição:
+                    <h4><b>Aluno:</b></h4>Caio Cedrola Rocha<br/>
+                    <h4><b>Orientador: </b></h4>Prof. Leonardo Goliatt da Fonseca (MAC)<br/>
+                    <br/>
+                    Descrição: As bacias hidrográficas são áreas de escoamento que englobam um rio principal e seus afluentes. A previsão da vazão da água nessas bacias é essencial para a melhoria da gestão dos recursos hídricos e para a preservação ambiental, pois viabiliza tomadas de decisões e o planejamento de risco de longo prazo por órgãos competentes. O regime de vazão nos rios, contudo, está sujeito a diversas condicionantes, como fenômenos naturais e antrópicos, que afetam o nível, a vazão, a qualidade da água e o transporte de sedimentos. Além disso, as séries temporais de dados hidrológicos coletados podem apresentar variações de medições e espaços faltantes. Os modelos de aprendizado profundo <i>(deep learning)</i>, como os algoritmos <i>Long Short Term Memory</i> (LSTM) e <i>Multi Task Learning</i> (MTL), podem ser aplicados à previsão das séries hídricas; e, quando combinados, são robustos aos dados faltantes e apresentam melhor desempenho, na medida em que permitem o aprendizado de várias tarefas relacionadas, como a previsão da vazão em diferentes cursos d'água dentro da bacia hidrográfica. Outra estratégia possível é a utilização em conjunto com as Redes Neurais Convolucionais (CNN), na qual as séries temporais são codificadas como imagens e posteriormente analisadas. Desta forma, utilizando dados hidrológicos das bacias dos rios Paraíba do Sul (Brasil) e Zambeze (Moçambique), tem-se como objetivo criar modelos que prevejam bem as séries temporais apresentadas, e que possam ajudar na gestão hídrica e no desenvolvimento sustentável das regiões das bacias. 
                     </p>
+                </div>
+                <div className="card-icon">
+                    <img src={Zambeze} alt="vacina"></img>
                 </div>
             </div>
             <div className='card' 
@@ -121,7 +125,7 @@ const ProjetosExtensao = () => {
             style={{borderLeftColor: "rgb(4, 122, 0)", color:"rgb(4, 122, 0)"}}>
                 <div className="card-content">
                     <h3>
-                        Detecção da COVID19 através de gravações de som de tosse
+                        Detecção da COVID-19 através de gravações de som de tosse
                     </h3>
                     <p>
                         <h4><b>Aluno:</b></h4>Lucas Augusto Müller de Souza<br />
