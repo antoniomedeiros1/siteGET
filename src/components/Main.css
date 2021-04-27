@@ -102,17 +102,6 @@
     box-shadow: 0px 0px 5px black;
 }
 
-.collapsible {
-    color: #444;
-    cursor: pointer;
-    padding: 18px;
-    width: 100%;
-    border: none;
-    text-align: left;
-    outline: none;
-    font-size: 15px;
-}
-
 iframe {
     margin-left: auto;
     margin-right: auto;
@@ -291,29 +280,31 @@ iframe {
 }
 
 .Collapsible {
-    width: 100%;
-    margin: 2px;
+    background-image: url("https://www.pngitem.com/pimgs/m/1-16250_video-play-button-play-button-png-red-transparent.png");
+    background-repeat: no-repeat;
+    background-size: 27px;
+    background-position: 35px 12px;
+    width: 85%;
     margin-left: auto;
     margin-right: auto;
-    background-color: rgb(233, 233, 233);
     border-radius: 4px;
     color: rgb(65, 65, 65);
 }
 
 .Collapsible__trigger {
     cursor: pointer;
-    padding: 13px;
-    font-size: 21px;
+    margin-left: 60px;
+    padding: 10px;
+    font-size: 25px;
+    font-weight: bold;
     transition: 200ms;
-    background-color: rgb(255, 42, 42);
-    color: white;
+    color: rgb(196, 8, 8);
 }
 
 .Collapsible__trigger:hover {
-    background-color: rgb(170, 17, 17);
-    color: white;
+    color: rgb(138, 8, 8);
 }
 
 .Collapsible__contentInner {
-    margin: 20px 0px 20px 0px;
+    margin: 10px 0px 10px 0px;
 }

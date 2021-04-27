@@ -18,6 +18,9 @@ import Curso from './pages/curso';
 import TrabalhosCurso from './pages/trabalhoscurso';
 import Tutoriais from './pages/tutoriais';
 import Python from './pages/python';
+import Linux from './pages/linux';
+import Planilhas from './pages/planilhas';
+import Scratch from './pages/scratch';
 import Contato from './pages/contato';
 
 function App() {
@@ -37,6 +40,9 @@ function App() {
 					<Route path='/curso/trabalhos' exact component={TrabalhosCurso} />
 					<Route path='/tutorial' exact component={Tutoriais} />
 					<Route path='/tutorial/python' exact component={Python} />
+					<Route path='/tutorial/linux' exact component={Linux} />
+					<Route path='/tutorial/planilhas' exact component={Planilhas} />
+					<Route path='/tutorial/scratch' exact component={Scratch} />
 					<Route path='/contato' exact component={Contato} />
 				</ScrollToTop>	
 			</Switch>
